@@ -1,18 +1,18 @@
 ---
-description: O Adobe Experience Platform Auditor é um serviço da Adobe Experience Platform, que foi desenvolvido em conjunto com o WatchPoint, especialistas na validação de implementações digitais.
-seo-description: O Adobe Experience Platform Auditor é um serviço da Adobe Experience Platform, que foi desenvolvido em conjunto com o WatchPoint, especialistas na validação de implementações digitais.
+description: O Adobe Experience Platform Auditor é um serviço da Adobe Experience Platform, que foi desenvolvido em conjunto com o ObservePoint, especialistas na validação de implementações digitais.
+seo-description: O Adobe Experience Platform Auditor é um serviço da Adobe Experience Platform, que foi desenvolvido em conjunto com o ObservePoint, especialistas na validação de implementações digitais.
 seo-title: Adobe Experience Platform Auditor
 title: Adobe Experience Platform Auditor
 uuid: 346132cb-d78d-4573-8edd-dbaa4c3bb05d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 35902c30e578980d9675723a874af6da8d7e6a65
 
 ---
 
 
-# Adobe Experience Platform Auditor{#adobe-experience-cloud-auditor}
+# Adobe Experience Platform Auditor {#adobe-experience-cloud-auditor}
 
-O Adobe Experience Platform Auditor é um serviço da Adobe Experience Platform, que foi desenvolvido em conjunto com o WatchPoint, especialistas na validação de implementações digitais.
+O Adobe Experience Platform Auditor é um serviço da Adobe Experience Platform, que foi desenvolvido em conjunto com o ObservePoint, especialistas na validação de implementações digitais.
 
 Com o Auditor, os usuários da Adobe Experience Cloud recebem um relatório que aumenta sua implementação da Adobe e fornece indicações sobre como melhorá-la. O Auditor ajuda você a obter mais valor de seus produtos da Adobe, individual e coletivamente.
 
@@ -30,12 +30,12 @@ Mas, manter implementações complexas em sites em um estado constante de fluxo 
 
 Ao permitir que você solucione problemas e corrija suas próprias implementações, o Auditor oferece maior controle sobre suas tags de implementação e, portanto, seus dados. Isso reduz a necessidade de entrar em contato com o Atendimento ao cliente com perguntas sobre as tags de implementação.
 
-O Auditor foi desenvolvido como um esforço cooperativo entre a Adobe e o WatchPoint. Os usuários do Auditor podem usar a funcionalidade Limitada do ObservePoint sem custo adicional. Para usar o Auditor, você deve aceitar as comunicações do WatchPoint.
+O Auditor foi desenvolvido como um esforço cooperativo entre a Adobe e o ObservePoint. Os usuários do Auditor podem usar a funcionalidade Limitada do ObservePoint sem custo adicional. Para usar o Auditor, você deve aceitar as comunicações do ObservePoint.
 
 ## Fórum da comunidade de auditores {#section-59846f1856bc40aba23d02fdd9198e25}
 
-Se precisar de ajuda para começar, se tiver dúvidas ou se desejar sugerir ou votar em melhorias futuras, visite o Fórum [da Comunidade do](https://forums.adobe.com/community/experience-cloud/platform/core-services/activation-service/auditor) Auditor para se conectar com especialistas e a Adobe.
+Se precisar de ajuda para começar, se tiver dúvidas ou se desejar sugerir ou votar em melhorias futuras, visite o [Fórum da Comunidade do Auditor](https://forums.adobe.com/community/experience-cloud/platform/core-services/activation-service/auditor) para se conectar com especialistas e a Adobe.
 
-## Release information {#section-be3e331a123d40f185aa59f23f69355e}
+## Informações de lançamento {#section-be3e331a123d40f185aa59f23f69355e}
 
-Para obter informações sobre a versão mais recente, consulte Notas [de versão do](release-notes.md#topic-8fa9e41bc3a54240b1873cebe36b75b1)Auditor.
+Para obter informações sobre o lançamento mais recente, consulte [Notas de versão do Auditor](release-notes.md#topic-8fa9e41bc3a54240b1873cebe36b75b1).
