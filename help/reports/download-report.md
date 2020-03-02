@@ -1,18 +1,18 @@
 ---
-description: O relatório mostra se cada URL passa ou falha.
-seo-description: O relatório mostra se cada URL passa ou falha.
-seo-title: Download do relatório
-title: Download do relatório
+description: O relatório mostra se cada URL foi bem-sucedida ou falhou.
+seo-description: O relatório mostra se cada URL foi bem-sucedida ou falhou.
+seo-title: Baixar relatório
+title: Baixar relatório
 uuid: cd5c4db8-e647-4311-9abb-98dd3bbc7ef8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 
 ---
 
 
-# Download report{#download-report}
+# Baixar relatório {#download-report}
 
-O relatório mostra se cada URL passa ou falha.
+O relatório mostra se cada URL foi bem-sucedida ou falhou.
 
 O relatório pode ser exibido na página do Scorecard na interface do usuário. Você também pode baixar o relatório:
 
@@ -34,4 +34,4 @@ O PDF mostra as seguintes informações:
 * Pontuação geral
 * Pontuação por categoria
 * Testes de unidade aplicados com URLs que falharam
-* Link do Recommendations e do documento de ajuda por teste
+* Recomendações e link de Ajuda por teste
