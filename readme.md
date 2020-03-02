@@ -1,6 +1,6 @@
 ---
 source-git-commit: cd2b8452627969f42c27d4679a09abf4c7abc993
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Contribuir com o artigo
