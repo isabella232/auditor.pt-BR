@@ -4,15 +4,15 @@ seo-description: Notas de versão do Adobe Experience Platform Auditor
 seo-title: Notas de versão do auditor
 title: Notas de versão do auditor
 uuid: 2e1eb2de-f162-45af-a9b0-15dbdac5531d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 35902c30e578980d9675723a874af6da8d7e6a65
 
 ---
 
 
-# Notas de versão do auditor{#auditor-release-notes}
+# Notas de versão do auditor {#auditor-release-notes}
 
-## February 5, 2019 {#section-f73142fd7c85492a806c7fc19a33a525}
+## 5 de fevereiro de 2019 {#section-f73142fd7c85492a806c7fc19a33a525}
 
 **Aprimoramento**
 
@@ -22,13 +22,13 @@ O número máximo de páginas permitido em uma digitalização foi aumentado de 
 >
 >Devido a esse aumento, o tempo necessário para concluir uma verificação é maior. Em alguns casos, pode levar até 48 horas para concluir uma verificação de 500 páginas.
 
-## November 2, 2018 {#section-542a32872efa445dab688285bf87964b}
+## 2 de novembro de 2018 {#section-542a32872efa445dab688285bf87964b}
 
 **Novos recursos**
 
 Agora você pode cancelar uma auditoria em execução na página do Auditor, na exibição de Cartão ou ao tentar criar uma nova auditoria.
 
-## June 4, 2018 {#section-0747f36a1f4f46638b2c6bf182de9864}
+## 4 de junho de 2018 {#section-0747f36a1f4f46638b2c6bf182de9864}
 
 **Novos recursos**
 
@@ -42,7 +42,7 @@ Agora você pode cancelar uma auditoria em execução na página do Auditor, na 
 
 Certifique-se de que o link Administração seja exibido no shell quando um usuário for um administrador da organização IMS
 
-## May 17, 2018 {#section-b72792e4e6ad4bd9910f48767704e204}
+## 17 de maio de 2018 {#section-b72792e4e6ad4bd9910f48767704e204}
 
 **Novos recursos**
 
@@ -62,7 +62,7 @@ O Adobe Experience Platform Auditor aprimora as implementações da Adobe Experi
 
 Com o Auditor, você pode:
 
-* **Analise** 100 páginas da Web por vez para ver a tecnologia da Adobe. Use filtros avançados para incluir ou excluir quaisquer páginas, conforme necessário. Você pode executar uma auditoria por vez e um número ilimitado de auditorias.
+* **Verifique** as páginas da Web do Scan 100 de cada vez para ver a tecnologia da Adobe. Use filtros avançados para incluir ou excluir quaisquer páginas, conforme necessário. Você pode executar uma auditoria por vez e um número ilimitado de auditorias.
 
 * **Entenda** Receba um relatório que classifica suas implementações da Adobe com base na presença, configuração e consistência de tags.
 
@@ -70,4 +70,4 @@ Com o Auditor, você pode:
 
 Ao permitir que você solucione problemas e corrija suas próprias implementações, o Auditor oferece maior controle sobre suas tags de implementação e, portanto, seus dados. Isso reduz a necessidade de entrar em contato com o Atendimento ao cliente com perguntas sobre as tags de implementação.
 
-O Auditor foi desenvolvido como um esforço cooperativo entre a Adobe e o WatchPoint. Os usuários do Auditor podem usar a funcionalidade Limitada do ObservePoint sem custo adicional. Para usar o Auditor, você deve aceitar as comunicações do WatchPoint.
+O Auditor foi desenvolvido como um esforço cooperativo entre a Adobe e o ObservePoint. Os usuários do Auditor podem usar a funcionalidade Limitada do ObservePoint sem custo adicional. Para usar o Auditor, você deve aceitar as comunicações do ObservePoint.
