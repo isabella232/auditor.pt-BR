@@ -4,13 +4,13 @@ seo-description: Depois de executar um teste, o scorecard mostra informações s
 seo-title: Scorecard
 title: Scorecard
 uuid: a765cd6a-d3d6-4438-9621-d7899385a518
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 
 ---
 
 
-# Scorecard{#scorecard}
+# Scorecard {#scorecard}
 
 Depois de executar um teste, o scorecard mostra informações sobre uma auditoria.
 
