@@ -4,21 +4,21 @@ seo-description: A página Lista de auditoria mostra informações sobre todas a
 seo-title: Página Lista de auditoria
 title: Página Lista de auditoria
 uuid: 5b357dd3-80cb-4a76-8a19-c01f0603dfc0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 
 ---
 
 
-# Página Lista de auditoria{#audit-list-page}
+# Página Lista de auditoria {#audit-list-page}
 
 A página Lista de auditoria mostra informações sobre todas as suas auditorias.
 
 Quando você inicia o Auditor, a página Lista de auditoria é exibida. Você pode exibir a página Lista de auditoria como uma lista ou exibição de cartão.
 
-## List view {#section-a428749d2ab94a08bf460e6a486b844a}
+## Exibição em lista {#section-a428749d2ab94a08bf460e6a486b844a}
 
-A exibição de Lista exibe as seguintes informações para cada auditoria.
+A exibição em Lista exibe as seguintes informações para cada auditoria.
 
 ![](assets/audit-list.png)
 
