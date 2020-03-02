@@ -4,13 +4,13 @@ seo-description: Criar uma nova auditoria no Auditor
 seo-title: Criar uma nova auditoria no Auditor
 title: Criar uma nova auditoria no Auditor
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 
 ---
 
 
-# Create a new audit{#create-a-new-audit}
+# Criar uma nova auditoria {#create-a-new-audit}
 
 >[!NOTE]
 >
@@ -20,11 +20,11 @@ Se desejar, use o link na parte inferior da página para acessar uma conta de av
 
 1. Na lista Auditor, clique em **[!UICONTROL Nova auditoria]**.
 
-   The [!DNL New Audit] screen opens.
+   A tela [!DNL New Audit] se abre.
 
    ![](assets/config.png)
 
-1. (Obrigatório) Nomear a auditoria.
+1. (Obrigatório) Nomeie a auditoria.
 
    O nome pode ter até 250 caracteres.
 1. (Obrigatório) Especifique o URL inicial.
@@ -35,11 +35,11 @@ Se desejar, use o link na parte inferior da página para acessar uma conta de av
    >
    >Em alguns casos, pode levar até 48 horas para concluir uma verificação de 500 páginas.
 
-1. Especifique um ou mais endereços de email para notificações sobre esta auditoria.
+1. Especifique um ou mais endereços de e-mail para notificações sobre esta auditoria.
 
-   É possível especificar vários emails separando cada endereço por vírgula. O solicitante é notificado por padrão. Os endereços de email são validados em tempo real. Se você digitar um endereço inválido, seu nome será notificado na tela.
+   Você pode especificar vários e-mails ao separá-los com uma vírgula. O solicitante é notificado por padrão. Os endereços de e-mail são validados em tempo real. Se você digitar um endereço inválido, seu nome será notificado na tela.
 
-   Cada email tem no máximo 250 caracteres, incluindo o fim do domínio (por exemplo, .com).
+   Cada e-mail tem no máximo 250 caracteres, incluindo o fim do domínio (por exemplo, .com).
 1. Especifique Incluir filtros.
 
    Esse campo pode conter URLs exatos, URLs parciais ou expressões regulares. Use este campo para os critérios que deseja que cada URL corresponda. Quaisquer URLs rastreados que não correspondem aos critérios de Incluir filtro não são incluídos nos resultados da auditoria.
