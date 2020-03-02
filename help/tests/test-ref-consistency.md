@@ -4,7 +4,7 @@ seo-description: Esta referência fornece mais informações sobre os testes exe
 seo-title: Consistência de tags
 title: Consistência de tags
 uuid: 16271dd6-3587-4f33-92f8-54ec4a3d6469
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
 
 ---
