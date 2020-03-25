@@ -4,8 +4,8 @@ seo-description: Documentação técnica do Adobe Experience Platform Auditor.
 seo-title: 'Documentação técnica do Adobe Experience Platform Auditor '
 title: Visão geral do Adobe Experience Platform Auditor - Documentos técnicos
 uuid: 346132cb-d78d-4573-8edd-dbaa4c3bb05d
-translation-type: ht
-source-git-commit: 35902c30e578980d9675723a874af6da8d7e6a65
+translation-type: tm+mt
+source-git-commit: 8a35e0c6b3c8ad6d38c02e85b4477e1e1d0f7bbb
 
 ---
 
