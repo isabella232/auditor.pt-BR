@@ -4,8 +4,8 @@ seo-description: Esta referência fornece mais informações sobre os testes que
 seo-title: Configuração
 title: Configuração
 uuid: d40d815c-edfe-48b9-921f-cea1b0b54a0a
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
 
@@ -53,7 +53,7 @@ Os testes de configuração verificam configurações, valores ou possíveis con
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Analytics - Instanciado no DOM</b> </p> <p>Peso: 5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/pt_BR/sc/implement/impl_testing.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b>Analytics - Instanciado no DOM</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/analytics/implementation/home.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p> O código do Adobe Analytics não está instalado ou não está sendo executado. Retorna 0 quando nenhum código de análise for encontrado na página da Web. </p> </td> 
    <td colname="col3"> <p>Verifique se a tag do Analytics está implementada na página e se não está bloqueada por atividades de script subsequentes. </p> </td> 
   </tr> 
@@ -61,7 +61,7 @@ Os testes de configuração verificam configurações, valores ou possíveis con
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Analytics - Instanciado uma vez</b> </p> <p>Peso: 5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/pt_BR/sc/implement/" format="https" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b>Analytics - Instanciado uma vez</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/analytics/implementation/home.html" format="https" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p> O código do Adobe Analytics foi detectado mais de uma vez na página. . Retorna 0 quando nenhum código de análise for encontrado na página da Web. </p> </td> 
    <td colname="col3"> <p>Verifique se há apenas uma tag do Analytics na página. </p> </td> 
   </tr> 
@@ -69,7 +69,7 @@ Os testes de configuração verificam configurações, valores ou possíveis con
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Analytics - Versão mais recente</b> </p> <p>Peso: 3 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/sc/appmeasurement/release" format="https" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b>Analytics - Versão mais recente</b> </p> <p>Peso: 3 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/analytics/implementation/appmeasurement-updates.html" format="https" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p> Suas páginas não estão executando a versão mais recente da biblioteca de códigos do Analytics. As bibliotecas de código que alimentam as tecnologias da Experience Cloud estão sendo constantemente atualizadas e aprimoradas para aproveitar as melhorias de desempenho e fornecer os recursos mais recentes. Retorna 0 quando nenhum código de análise for encontrado na página da Web. </p> </td> 
    <td colname="col3"> <p>Instale a última versão da biblioteca Analytics. </p> </td> 
   </tr> 
@@ -77,7 +77,7 @@ Os testes de configuração verificam configurações, valores ou possíveis con
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>DTM - tags de terceiros são carregadas de forma assíncrona após DOM pronto</b> </p> <p>Peso: 3 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/pt_BR/dtm/load_order.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b>DTM - tags de terceiros são carregadas de forma assíncrona após DOM pronto</b> </p> <p>Peso: 3 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/dtm/using/resources/load-order.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p>Para obter um equilíbrio entre uma boa experiência do usuário e a coleta de dados precisos, as tags de terceiros devem ser acionadas no DOM pronto. Isso garantirá que esses scripts de rastreamento sejam executados sem afetar a funcionalidade do site. </p> </td> 
    <td colname="col3"> <p>Resolva esse problema ajustando todas as regras que executam pixels de terceiros para serem acionados no DOM Ready. </p> </td> 
   </tr> 
@@ -85,7 +85,7 @@ Os testes de configuração verificam configurações, valores ou possíveis con
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Serviço da Experience Cloud ID - Versão mais recente</b> </p> <p>Peso: 2 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/pt_BR/dtm/macid.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b>Serviço da Experience Cloud ID - Versão mais recente</b> </p> <p>Peso: 2 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/dtm/using/tools/macid.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p> Suas páginas não estão executando a versão mais recente da biblioteca de códigos do Serviço de ID de visitante, <span class="codeph"> visitorAPI.js</span>. As bibliotecas de código que alimentam as tecnologias da Experience Cloud estão sendo constantemente atualizadas e aprimoradas para aproveitar as melhorias de desempenho e fornecer os recursos mais recentes. </p> </td> 
    <td colname="col3"> <p>Instale a versão mais recente da biblioteca do serviço de ID de visitante. </p> </td> 
   </tr> 
@@ -93,7 +93,7 @@ Os testes de configuração verificam configurações, valores ou possíveis con
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Launch - Versão mais recente</b> </p> <p>Peso: 2 </p> <p><a href="https://docs.adobelaunch.com/getting-started" format="https" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b>Launch - Versão mais recente</b> </p> <p>Peso: 2 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p>Essas páginas não estão executando a versão mais recente da biblioteca de códigos do Launch (Turbine). As bibliotecas de código que alimentam as tecnologias da Experience Cloud estão sendo constantemente atualizadas e aprimoradas para aproveitar as melhorias de desempenho e fornecer os recursos mais recentes. </p> </td> 
    <td colname="col3"> <p> Atualize a biblioteca do Launch recriando e publicando a biblioteca do Launch. </p> </td> 
   </tr> 
@@ -101,7 +101,7 @@ Os testes de configuração verificam configurações, valores ou possíveis con
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Target - Versão mais recente</b> </p> <p>Peso: 2 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/pt_BR/target/dtm/update-target-tool.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b>Target - Versão mais recente</b> </p> <p>Peso: 2 </p> <p><a href="https://docs.adobe.com/content/help/en/dtm/implementing/target/update-target-tool.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p> Suas páginas não estão executando a versão mais recente da biblioteca de códigos do Target. As bibliotecas de código que alimentam as tecnologias da Experience Cloud estão sendo constantemente atualizadas e aprimoradas para aproveitar as melhorias de desempenho e fornecer os recursos mais recentes. </p> </td> 
    <td colname="col3"> <p>Instale a última versão da biblioteca Target. </p> </td> 
   </tr> 
@@ -109,7 +109,7 @@ Os testes de configuração verificam configurações, valores ou possíveis con
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Target - mboxDefault precede mboxCreate </b> </p> <p>Peso: 5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-mboxcreate.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b>Target - mboxDefault precede mboxCreate </b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p>O uso correto de <span class="codeph"> mboxCreate</span> é semelhante a: </p> <p> <span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;!-Conteúdo do cliente—&gt;&lt;/div&gt;&lt;script&gt;mboxCreate('myMboxName')&lt;/script&gt;</span> </p> </td> 
    <td colname="col3"> <p>Certifique-se de incluir uma tag <span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;/div&gt;</span> antes de chamar <span class="codeph"> mboxCreate()</span>. O at.js não adicionará um para você. </p> </td> 
   </tr> 
@@ -117,7 +117,7 @@ Os testes de configuração verificam configurações, valores ou possíveis con
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Target - DOCTYPE válido</b> </p> <p>Peso: 5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-mboxcreate.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b>Target - DOCTYPE válido</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/help/en/target/using/implement-target/client-side/faq-at-js/target-atjs-faq.html#what-html-doctype-does-atjs-require" format="html" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p> Um DOCTYPE inválido foi detectado. Nenhuma mbox será acionada neste cenário. </p> <p>Para at.js, DOCTYPE deve estar no modo Padrões ou o Target não funcionará. </p> </td> 
    <td colname="col3"> <p>Atualize o DOCTYPE na página. </p> </td> 
   </tr> 
