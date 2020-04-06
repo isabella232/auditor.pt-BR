@@ -4,8 +4,8 @@ seo-description: Esta referência fornece mais informações sobre os alertas qu
 seo-title: Alertas
 title: Alertas
 uuid: 8f05b3c1-2427-4691-a88f-1de98f120a02
-translation-type: ht
-source-git-commit: 762ff31ca4d5ed69d1b813589e419c51a40d5920
+translation-type: tm+mt
+source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
 
@@ -77,7 +77,7 @@ Os alertas mostram problemas que você deve estar ciente, mas que não afetam su
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>DTM - Auto-hospedado</b> </p> <p>Peso: 0 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/pt_BR/dtm/deployment.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b>DTM - Auto-hospedado</b> </p> <p>Peso: 0 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/dtm/using/client-side/client-side-information.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p> A biblioteca do DTM está sendo hospedada na instância Akamai da Adobe em <span class="filepath"> assets.adobedtm.com</span>. </p> <p> A hospedagem própria é a abordagem recomendada para carregar o DTM, pois oferece maior controle do desempenho do site por meio do controle de cache, reduzindo as dependências de scripts de terceiros e maior controle do processo de publicação. As bibliotecas do DTM podem ser hospedadas e gerenciadas por meio de sua própria hospedagem na Web ou CDN. </p> </td> 
    <td colname="col3"> <p>Auto-hospedagem é a abordagem recomendada para carregar o DTM em uma página. Embora a hospedagem do DTM por meio do Akamai CDN funcione na maioria dos casos, a hospedagem própria melhora o desempenho da página. </p> </td> 
   </tr> 
@@ -85,7 +85,7 @@ Os alertas mostram problemas que você deve estar ciente, mas que não afetam su
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b> Serviço da Experience Cloud ID - Use apenas uma AdobeOrg</b> </p> <p>Peso: 0 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/pt_BR/mcvid/mcvid_id_request.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b> Serviço da Experience Cloud ID - Use apenas uma AdobeOrg</b> </p> <p>Peso: 0 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/id-service/using/intro/id-request.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p>Em uma implementação MCID normal, uma única AdobeOrg deve ser usada. </p> </td> 
    <td colname="col3"> <p>Valide se existem várias AdobeOrg IDs para essa implementação. </p> </td> 
   </tr> 
@@ -93,7 +93,7 @@ Os alertas mostram problemas que você deve estar ciente, mas que não afetam su
    <td colname="col1"> 
     <draft-comment>
       1.0.5 
-    </draft-comment> <p><b>Launch - posição de retorno de chamada pageBottom</b> </p> <p>Peso: 0 </p> <p><a href="https://docs.adobelaunch.com/getting-started" format="https" scope="external"> Informações adicionais</a> </p> 
+    </draft-comment> <p><b>Launch - posição de retorno de chamada pageBottom</b> </p> <p>Peso: 0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Informações adicionais</a> </p> 
     <draft-comment>
       TE48c499b022f545c5bccc6f8bde169685 
     </draft-comment> </td> 
@@ -104,7 +104,7 @@ Os alertas mostram problemas que você deve estar ciente, mas que não afetam su
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Launch - Auto-Hospedado</b> </p> <p>Peso: 0 </p> <p><a href="https://docs.adobelaunch.com/getting-started" format="https" scope="external"> Introdução ao Launch</a> </p> <p><a href="https://docs.adobelaunch.com/client-side-information/asynchronous-deployment" format="https" scope="external"> Implantação assíncrona do Launch</a> </p> </td> 
+    </draft-comment> <p><b>Launch - Auto-Hospedado</b> </p> <p>Peso: 0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Introdução ao Launch</a> </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/reference/client-side-info/asynchronous-deployment.html" format="https" scope="external"> Implantação assíncrona do Launch</a> </p> </td> 
    <td colname="col2"> <p>A biblioteca do Launch está sendo hospedada na instância Akamai da Adobe em <span class="filepath"> assets.adobedtm.com</span>. </p> <p>A hospedagem própria é a abordagem recomendada para o carregamento do Launch, pois oferece maior controle do desempenho do site por meio do controle de cache, reduzindo as dependências de scripts de terceiros e maior controle do processo de publicação. As bibliotecas do Launch podem ser hospedadas e gerenciadas por meio de sua própria hospedagem na Web ou CDN. </p> </td> 
    <td colname="col3"> <p>Embora a hospedagem do Launch via Akamai CDN funcione na maioria dos casos, recomenda-se que a hospedagem automática seja implementada como a primeira etapa para melhorar o desempenho da página. </p> </td> 
   </tr> 
@@ -112,7 +112,7 @@ Os alertas mostram problemas que você deve estar ciente, mas que não afetam su
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Launch - deve ser implantado de forma assíncrona</b> </p> <p>Peso: 0 </p> <p><a href="https://docs.adobelaunch.com/getting-started" format="https" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b>Launch - deve ser implantado de forma assíncrona</b> </p> <p>Peso: 0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p>O Launch deve ser implantado de forma assíncrona para obter o desempenho ideal. </p> </td> 
    <td colname="col3"> <p>Inclua o parâmetro async no script em linha para garantir a funcionalidade assíncrona Launch adequada </p> </td> 
   </tr> 
@@ -120,7 +120,7 @@ Os alertas mostram problemas que você deve estar ciente, mas que não afetam su
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b> Target - Conteúdo em mboxDefault</b> </p> <p>Peso: 0 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-mboxcreate.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b> Target - Conteúdo em mboxDefault</b> </p> <p>Peso: 0 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/target/using/implement-target/implementing-target.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p> O conteúdo deve existir em mboxDefault ao usar o at.js. </p> </td> 
    <td colname="col3"> <p>Verifique se o conteúdo está disponível. </p> </td> 
   </tr> 
