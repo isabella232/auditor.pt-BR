@@ -4,7 +4,7 @@ seo-description: Esta referência fornece mais informações sobre os testes rea
 seo-title: Referência do teste
 title: Referência do teste
 uuid: f1d0769e-a2bd-4cec-acd1-146793644895
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
