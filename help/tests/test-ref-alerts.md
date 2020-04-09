@@ -4,7 +4,7 @@ seo-description: Esta referência fornece mais informações sobre os alertas qu
 seo-title: Alertas
 title: Alertas
 uuid: 8f05b3c1-2427-4691-a88f-1de98f120a02
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78105ff6766f48f3aaccfeda281e5b4883be856a
 
 ---
@@ -48,9 +48,9 @@ Os alertas mostram problemas que você deve estar ciente, mas que não afetam su
     </draft-comment> <p><b>Advertising Cloud - tag somente imagem</b> </p> <p>Peso: 0 </p> </td> 
    <td colname="col2"> <p>O formato de pixel de imagem da Advertising Cloud deve corresponder a um dos seguintes formatos recomendados: </p> <p> 
      <ul id="ul_D85BE9C8A8654DE890E1A814E3573D86"> 
-      <li id="li_E2AEDD76AC7044E8AD6AE8375858D198"> <p><span class="codeph"> http(s)://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
-      <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph"> http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
-      <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph"> http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
+      <li id="li_E2AEDD76AC7044E8AD6AE8375858D198"> <p><span class="codeph">http(s)://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
+      <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph">http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
+      <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph">http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
      </ul> </p> </td> 
    <td colname="col3"> <p>Atualize seus pixels da Advertising Cloud para as novas tags somente de imagem da Advertising Cloud, que garantem que você esteja aproveitando toda a funcionalidade da Advertising Cloud. </p> <p>Isso pode ser feito com mais facilidade com a Extensão Advertising Cloud Launch. </p> </td> 
   </tr> 
@@ -93,7 +93,7 @@ Os alertas mostram problemas que você deve estar ciente, mas que não afetam su
    <td colname="col1"> 
     <draft-comment>
       1.0.5 
-    </draft-comment> <p><b>Launch - posição de retorno de chamada pageBottom</b> </p> <p>Peso: 0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Informações adicionais</a> </p> 
+    </draft-comment> <p><b>Launch - posição de retorno de chamada pageBottom</b> </p> <p>Peso: 0 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informações adicionais</a> </p> 
     <draft-comment>
       TE48c499b022f545c5bccc6f8bde169685 
     </draft-comment> </td> 
@@ -104,7 +104,7 @@ Os alertas mostram problemas que você deve estar ciente, mas que não afetam su
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Launch - Auto-Hospedado</b> </p> <p>Peso: 0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Introdução ao Launch</a> </p> <p><a href="https://docs.adobe.com/content/help/en/launch/using/reference/client-side-info/asynchronous-deployment.html" format="https" scope="external"> Implantação assíncrona do Launch</a> </p> </td> 
+    </draft-comment> <p><b>Launch - Auto-Hospedado</b> </p> <p>Peso: 0 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Introdução ao Launch</a> </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/launch/using/reference/client-side-info/asynchronous-deployment.html" format="https" scope="external"> Implantação assíncrona do Launch</a> </p> </td> 
    <td colname="col2"> <p>A biblioteca do Launch está sendo hospedada na instância Akamai da Adobe em <span class="filepath"> assets.adobedtm.com</span>. </p> <p>A hospedagem própria é a abordagem recomendada para o carregamento do Launch, pois oferece maior controle do desempenho do site por meio do controle de cache, reduzindo as dependências de scripts de terceiros e maior controle do processo de publicação. As bibliotecas do Launch podem ser hospedadas e gerenciadas por meio de sua própria hospedagem na Web ou CDN. </p> </td> 
    <td colname="col3"> <p>Embora a hospedagem do Launch via Akamai CDN funcione na maioria dos casos, recomenda-se que a hospedagem automática seja implementada como a primeira etapa para melhorar o desempenho da página. </p> </td> 
   </tr> 
@@ -112,7 +112,7 @@ Os alertas mostram problemas que você deve estar ciente, mas que não afetam su
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Launch - deve ser implantado de forma assíncrona</b> </p> <p>Peso: 0 </p> <p><a href="https://adobe.com/go/launch_help_get_started" format="https" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b>Launch - deve ser implantado de forma assíncrona</b> </p> <p>Peso: 0 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p>O Launch deve ser implantado de forma assíncrona para obter o desempenho ideal. </p> </td> 
    <td colname="col3"> <p>Inclua o parâmetro async no script em linha para garantir a funcionalidade assíncrona Launch adequada </p> </td> 
   </tr> 
