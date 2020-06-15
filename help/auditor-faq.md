@@ -1,11 +1,14 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Auditor Perguntas frequentes
+seo-title: Perguntas frequentes do auditor
 title: Perguntas frequentes do auditor
 uuid: 4db0781a-b288-4ec2-97ff-410a8241a61d
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: 631656ed4442f7f0083b1c99a725328a1c51ff9f
+workflow-type: tm+mt
+source-wordcount: '938'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +26,7 @@ Este artigo contém as respostas às perguntas frequentes sobre o Adobe Experien
 * [Que informações são fornecidas num relatório?](auditor-faq.md#section-752d6b82f6744a3182c4ce16ea6b5d3f)
 * [Como essa informação é acionável?](auditor-faq.md#section-9308c1ea882048b781087ae6d2eee9f0)
 * [O Auditor pode auditar tecnologias não pertencentes à Adobe?](auditor-faq.md#section-f6e73c56083b4815bbf901296038bcd4)
-* [Posso adicionar meus endereços IP à lista de permissões para permitir a digitalização de páginas...](auditor-faq.md#section-011e4f54c58140ffb93bedeb0745b6cc)
+* [Posso aprovar meus endereços IP para permitir a digitalização de páginas...](auditor-faq.md#section-011e4f54c58140ffb93bedeb0745b6cc)
 * [O Auditor utiliza os mesmos intervalos IP que o Observepoint?](auditor-faq.md#section-39512b156e194787981bdd572ff5b5a9)
 
 ## O que é o Auditor? {#section-c4a9bc8d8eef41598c27e0951a2518e4}
@@ -126,7 +129,7 @@ Todas as recomendações fornecidas por meio do Auditor têm como objetivo ajud�
 
 Não. No entanto, a oferta completa da ObservePoint permite que os clientes auditem e monitorem todas as suas tags e tecnologias de marketing. Como cliente da Adobe, você tem acesso a uma conta de avaliação complementar. Para acessar sua conta de avaliação, visite a [página Auditor do ObservePoint](https://www.observepoint.com/adobe-auditor/?utm_source=Adobe&amp;utm_medium=Auditor&amp;utm_campaign=Premium).
 
-## É possível adicionar meus endereços IP à lista de permissões para permitir a digitalização de páginas protegidas por um logon? {#section-011e4f54c58140ffb93bedeb0745b6cc}
+## Can I approve my IP addresses to allow scanning pages that are protected by a login? {#section-011e4f54c58140ffb93bedeb0745b6cc}
 
 No momento, essa funcionalidade não é suportada sem a oferta completa do ObservePoint.
 
