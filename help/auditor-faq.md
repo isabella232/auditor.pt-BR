@@ -1,19 +1,19 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Perguntas frequentes do auditor
-title: Perguntas frequentes do auditor
+seo-title: Perguntas frequentes do Auditor
+title: Perguntas frequentes do Auditor
 uuid: 4db0781a-b288-4ec2-97ff-410a8241a61d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 631656ed4442f7f0083b1c99a725328a1c51ff9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '938'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# Perguntas frequentes do auditor {#auditor-faq}
+# Perguntas frequentes do Auditor {#auditor-faq}
 
 Este artigo contém as respostas às perguntas frequentes sobre o Adobe Experience Platform Auditor.
 
@@ -41,12 +41,12 @@ Todas as organizações de clientes da Adobe Experience Cloud recebem acesso gra
 
 ## Como faço para acessar o Auditor? {#section-531ff85f94384831a89cbb4109549daf}
 
-Depois de fazer logon em [https://experiencecloud.adobe.com](https://experiencecloud.adobe.com), é possível encontrar o Auditor clicando em **[!UICONTROL Ativação]** na navegação superior. Também pode ir diretamente para [https://auditor.adobe.com](https://auditor.adobe.com).
+Depois de fazer logon em [https://experiencecloud.adobe.com](https://experiencecloud.adobe.com), é possível encontrar o Auditor clicando em **[!UICONTROL Activation]** na navegação superior. Também pode ir diretamente para [https://auditor.adobe.com](https://auditor.adobe.com).
 
 ## Quais tecnologias da Adobe o Auditor avalia? {#section-52833b71c05448aaae508e6070a387f5}
 
 * Advertising Cloud DSP
-* Pesquisa na Marketing Cloud
+* Pesquisa na Advertising Cloud
 * Analytics
 * DTM
 * Serviço da Experience Cloud ID (antigo serviço da Marketing Cloud ID)
@@ -129,7 +129,7 @@ Todas as recomendações fornecidas por meio do Auditor têm como objetivo ajud�
 
 Não. No entanto, a oferta completa da ObservePoint permite que os clientes auditem e monitorem todas as suas tags e tecnologias de marketing. Como cliente da Adobe, você tem acesso a uma conta de avaliação complementar. Para acessar sua conta de avaliação, visite a [página Auditor do ObservePoint](https://www.observepoint.com/adobe-auditor/?utm_source=Adobe&amp;utm_medium=Auditor&amp;utm_campaign=Premium).
 
-## Can I approve my IP addresses to allow scanning pages that are protected by a login? {#section-011e4f54c58140ffb93bedeb0745b6cc}
+## Posso aprovar meus endereços IP para permitir a digitalização de páginas protegidas por um login? {#section-011e4f54c58140ffb93bedeb0745b6cc}
 
 No momento, essa funcionalidade não é suportada sem a oferta completa do ObservePoint.
 
