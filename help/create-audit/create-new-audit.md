@@ -4,8 +4,11 @@ seo-description: Criar uma nova auditoria no Auditor
 seo-title: Criar uma nova auditoria no Auditor
 title: Criar uma nova auditoria no Auditor
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '501'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +32,7 @@ Se desejar, use o link na parte inferior da página para acessar uma conta de av
    O nome pode ter até 250 caracteres.
 1. (Obrigatório) Especifique o URL inicial.
 
-   O protocolo é necessário ao especificar o URL inicial. O URL inicial é a página na qual a auditoria começa a rastrear. Depois de iniciado, o Auditor pesquisa até 500 páginas, seguindo os links que começam no URL inicial. Consulte [Incluir e excluir filtros](../create-audit/filters.md#concept-23531490bb124981ba807ed1806e3257) para obter mais informações. O URL inicial pode ter até 250 caracteres.
+   O protocolo é necessário ao especificar o URL inicial. O URL inicial é a página na qual a auditoria começa a rastrear. Depois de iniciado, o Auditor pesquisa até 500 páginas, seguindo os links que começam no URL inicial. Consulte [Incluir e excluir filtros](../create-audit/filters.md) para obter mais informações. O URL inicial pode ter até 250 caracteres.
 
    >[!NOTE]
    >
@@ -52,7 +55,7 @@ Se desejar, use o link na parte inferior da página para acessar uma conta de av
 
    Os filtros de inclusão são limitados a 1.000 caracteres por linha.
 
-   Consulte [Incluir lista](../create-audit/filters.md#section-7626060a56a24b658f8c05f031ac3f5f) para obter mais informações.
+   Consulte [Incluir lista](../create-audit/filters.md) para obter mais informações.
 1. Especifique Excluir filtros.
 
    A Lista de exclusões impede que os URLs sejam auditados. Use URLs exatos, URLs parciais ou expressões regulares, como faria na Lista de inclusão.
@@ -61,7 +64,7 @@ Se desejar, use o link na parte inferior da página para acessar uma conta de av
 
    Os filtros de exclusão são limitados a 1.000 caracteres por linha.
 
-   Consulte [Excluir lista](../create-audit/filters.md#section-00aa5e10c878473b91ba0844bebe7ca9) para obter mais informações.
+   Consulte [Excluir lista](../create-audit/filters.md) para obter mais informações.
 1. (Opcional) Se desejar, você pode testar os filtros incluir e excluir e testar seus URLs.
 
    Insira os filtros e URLs e clique em **[!UICONTROL Aplicar]** para executar o teste.
