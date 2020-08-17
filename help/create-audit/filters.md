@@ -4,8 +4,11 @@ seo-description: Incluir filtros que restringem os links que uma auditoria pode 
 seo-title: Incluir e excluir filtros
 title: Incluir e excluir filtros
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '804'
+ht-degree: 98%
 
 ---
 
@@ -77,7 +80,7 @@ O uso do filtro Incluir padrão fornece um intervalo amplo para que uma auditori
 
 Os filtros de inclusão podem conter URLs exatos, URLs parciais ou expressões regulares. Por exemplo, se o URL inicial for [!DNL http://mysite.com], as seguintes páginas poderão ser digitalizadas por padrão (observe os caracteres em negrito):
 
-```
+```html
 http://mysite.com
 http
 <b>s</b>://mysite.com
@@ -89,9 +92,7 @@ http://
 <b>my</b>.mysite.com/products/products_and_services.html
 ```
 
-Para padrões complexos de URL, use o [testador de expressão regular do ObservePoint.](http://regex.observepoint.com/)
-
-Consulte também o documento [Expressões regulares comuns para o ObservePoint](https://help.observepoint.com/articles/2872116-common-regular-expressions-for-observepoint) para ver casos de uso comuns de correspondência de padrões.
+Para padrões complexos de URL, use o [testador de expressão regular do ObservePoint.](https://regex.observepoint.com/)
 
 ## Excluir filtros {#section-00aa5e10c878473b91ba0844bebe7ca9}
 
@@ -107,4 +108,4 @@ Ao criar sua auditoria, clique em **[!UICONTROL Testar filtros avançados]**. In
 
 ## Documentação do ObservePoint {#section-79cdc8e850d047969b6d2badf6bbd6f9}
 
-Este artigo foi desenvolvido em cooperação com a ObservePoint. Para obter as informações mais recentes, consulte a [documentação do ObservePoint](https://help.observepoint.com/articles/2872121-include-and-exclude-filters).
+Este artigo foi desenvolvido em cooperação com a ObservePoint. For the latest information, refer to the [ObservePoint documentation](https://help.observepoint.com/.
