@@ -1,6 +1,9 @@
 ---
-source-git-commit: 525ab6768a5f4e3af5dfe751bd0669bf92954f92
-translation-type: ht
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '281'
+ht-degree: 100%
 
 ---
 # Contribuição
@@ -25,7 +28,7 @@ de problema (quando apropriado).
 
 Todas as contribuições de terceiros para esse projeto devem ser acompanhadas por um Contrato de Licença de Colaborador
 assinado. Esse contrato fornece à Adobe permissão para redistribuir suas contribuições
-como parte do projeto. [Assine nosso CLA](http://opensource.adobe.com/cla.html). Você
+como parte do projeto. [Assine nosso CLA](https://opensource.adobe.com/cla.html). Você
 precisa enviar um CLA da Adobe somente uma vez. Por isso, se já tiver enviado um,
 você pode ir em frente!
 
