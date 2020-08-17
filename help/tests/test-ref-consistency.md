@@ -4,8 +4,11 @@ seo-description: Esta referência fornece mais informações sobre os testes exe
 seo-title: Consistência de tags
 title: Consistência de tags
 uuid: 16271dd6-3587-4f33-92f8-54ec4a3d6469
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +32,7 @@ Os testes de consistência do auditor procuram inconsistências em todas as pág
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Analytics - Versão de código consistente </b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics/implementation/choose-implementation-method.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b>Analytics - Versão de código consistente </b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/analytics/implementation/home.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p> Mais de uma versão do código do Analytics foi encontrada. </p> </td> 
    <td colname="col3"> <p>Substitua todas as instâncias do Analytics pela versão atual. </p> </td> 
   </tr> 
