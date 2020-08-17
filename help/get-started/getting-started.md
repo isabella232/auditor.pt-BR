@@ -4,8 +4,11 @@ seo-description: Introdução ao Auditor
 seo-title: Introdução
 title: Introdução
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 100%
 
 ---
 
@@ -44,10 +47,10 @@ Na primeira vez que utilizar o Auditor, deverá concluir e aceitar o acordo do A
 
    ![](assets/config.png)
 
-   Para obter uma descrição de todas as opções de configuração, consulte [Criar uma nova auditoria](../create-audit/create-new-audit.md#task-6d157f80e5264642b877c2820b1d077d).
+   Para obter uma descrição de todas as opções de configuração, consulte [Criar uma nova auditoria](../create-audit/create-new-audit.md).
 1. Exibir seu relatório.
 
-   Quando você receber o e-mail informando que a verificação foi concluída, clique no link para [exibir seu relatório](../reports/scorecard.md#concept-8958a64346c34f74844553dda1ccf869) e começar a entender oportunidades para melhorar sua implementação e obter mais valor das soluções da Adobe.
+   Quando você receber o e-mail informando que a verificação foi concluída, clique no link para [exibir seu relatório](../reports/scorecard.md) e começar a entender oportunidades para melhorar sua implementação e obter mais valor das soluções da Adobe.
 
    Você também pode clicar no nome da auditoria na [página Auditor](../get-started/audit-list.md) para ver o status da auditoria e exibir o relatório após a conclusão da auditoria.
 
