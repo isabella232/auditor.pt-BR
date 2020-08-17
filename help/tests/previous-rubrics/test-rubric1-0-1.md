@@ -4,8 +4,11 @@ seo-description: 'null'
 seo-title: Testar rubrica 1.0.1
 title: Testar rubrica 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
-translation-type: ht
-source-git-commit: 712d0768e5e5394372293bf8231c91489519bcd1
+translation-type: tm+mt
+source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
+workflow-type: tm+mt
+source-wordcount: '2737'
+ht-degree: 99%
 
 ---
 
@@ -52,9 +55,9 @@ Os alertas mostram problemas que você deve estar ciente, mas que não afetam su
     </draft-comment> <p><b>Advertising Cloud - tag somente imagem</b> </p> <p>Peso: 0 </p> </td> 
    <td colname="col2"> <p>O formato de pixel de imagem da Advertising Cloud deve corresponder a um dos seguintes formatos recomendados: </p> <p> 
      <ul id="ul_D85BE9C8A8654DE890E1A814E3573D86"> 
-      <li id="li_E2AEDD76AC7044E8AD6AE8375858D198"> <p><span class="codeph"> http(s)://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
-      <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph"> http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
-      <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph"> http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
+      <li id="li_E2AEDD76AC7044E8AD6AE8375858D198"> <p><span class="codeph">http(s)://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
+      <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph">http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
+      <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph">http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
      </ul> </p> </td> 
    <td colname="col3"> <p>Atualize seus pixels da Advertising Cloud para as novas tags somente de imagem da Advertising Cloud, que garantem que você esteja aproveitando toda a funcionalidade da Advertising Cloud. </p> <p>Isso pode ser feito com mais facilidade com a Extensão Advertising Cloud Launch. </p> </td> 
   </tr> 
@@ -81,7 +84,7 @@ Os alertas mostram problemas que você deve estar ciente, mas que não afetam su
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>DTM - Auto-hospedado</b> </p> <p>Peso: 0 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/pt_BR/dtm/deployment.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b>DTM - Auto-hospedado</b> </p> <p>Peso: 0 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/dtm/using/client-side/client-side-information.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p> A biblioteca do DTM está sendo hospedada na instância Akamai da Adobe em <span class="filepath"> assets.adobedtm.com</span>. </p> <p> A hospedagem própria é a abordagem recomendada para carregar o DTM, pois oferece maior controle do desempenho do site por meio do controle de cache, reduzindo as dependências de scripts de terceiros e maior controle do processo de publicação. As bibliotecas do DTM podem ser hospedadas e gerenciadas por meio de sua própria hospedagem na Web ou CDN. </p> </td> 
    <td colname="col3"> <p>Auto-hospedagem é a abordagem recomendada para carregar o DTM em uma página. Embora a hospedagem do DTM por meio do Akamai CDN funcione na maioria dos casos, a hospedagem própria melhora o desempenho da página. </p> </td> 
   </tr> 
@@ -89,7 +92,7 @@ Os alertas mostram problemas que você deve estar ciente, mas que não afetam su
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b> Serviço da Experience Cloud ID - Use apenas uma AdobeOrg</b> </p> <p>Peso: 0 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/pt_BR/mcvid/mcvid_id_request.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b> Serviço da Experience Cloud ID - Use apenas uma AdobeOrg</b> </p> <p>Peso: 0 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/id-service/using/intro/id-request.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p>Em uma implementação MCID normal, uma única AdobeOrg deve ser usada. </p> </td> 
    <td colname="col3"> <p>Valide se existem várias AdobeOrg IDs para essa implementação. </p> </td> 
   </tr> 
@@ -124,7 +127,7 @@ Os alertas mostram problemas que você deve estar ciente, mas que não afetam su
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b> Target - Conteúdo em mboxDefault</b> </p> <p>Peso: 0 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-mboxcreate.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b> Target - Conteúdo em mboxDefault</b> </p> <p>Peso: 0 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/target/using/implement-target/implementing-target.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p> O conteúdo deve existir em mboxDefault ao usar o at.js. </p> </td> 
    <td colname="col3"> <p>Verifique se o conteúdo está disponível. </p> </td> 
   </tr> 
@@ -151,7 +154,7 @@ Os testes de configuração verificam configurações, valores ou possíveis con
     <draft-comment>
       1.0.1 
     </draft-comment> <p><b>Advertising Cloud - Os nomes de conversão usam somente caracteres alfanuméricos</b> </p> <p>Peso: 3 </p> </td> 
-   <td colname="col2"> <p>O parâmetro <span class="codeph"> ev_conversion_property_name</span> deve conter apenas valores numéricos e decimais, EXCETO para o parâmetro "<span class="codeph"> ev_transid</span>" (o valor <span class="codeph"> ev_transid</span> pode conter valores de texto ou numéricos) </p> <p>Procure por pixels <span class="codeph"> everesttech.net</span> que contenham um parâmetro de URL que comece com <span class="codeph"> ev_</span>. </p> <p>Exemplo: </p> <p><span class="codeph"> http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue=$12&amp;ev_transid=1hf74i47 </span> </p> </td> 
+   <td colname="col2"> <p>O parâmetro <span class="codeph"> ev_conversion_property_name</span> deve conter apenas valores numéricos e decimais, EXCETO para o parâmetro "<span class="codeph"> ev_transid</span>" (o valor <span class="codeph"> ev_transid</span> pode conter valores de texto ou numéricos) </p> <p>Procure por pixels <span class="codeph"> everesttech.net</span> que contenham um parâmetro de URL que comece com <span class="codeph"> ev_</span>. </p> <p>Exemplo: </p> <p><span class="codeph">http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue=$12&amp;ev_transid=1hf74i47 </span> </p> </td> 
    <td colname="col3"> <p> Certifique-se de que seus parâmetros de propriedade de transação contenham apenas valores numéricos e decimais. </p> <p> <p>Aviso:  Qualquer outro tipo de valor pode causar perda de dados. </p> </p> </td> 
   </tr> 
   <tr> 
@@ -159,7 +162,7 @@ Os testes de configuração verificam configurações, valores ou possíveis con
     <draft-comment>
       1.0.1 
     </draft-comment> <p><b>Advertising Cloud - Os nomes de conversão usam caracteres com segurança de URL</b> </p> <p>Peso: 3 </p> </td> 
-   <td colname="col2"> <p> Os nomes de propriedades de conversão não devem conter um E comercial (&amp;) ou um ponto de interrogação. </p> <p> Exemplo: </p> <p><span class="codeph"> http://pixel.everesttech.net/1180/t?ev_revenue&amp;order=12&amp;ev_transid=</span> </p> </td> 
+   <td colname="col2"> <p> Os nomes de propriedades de conversão não devem conter um E comercial (&amp;) ou um ponto de interrogação. </p> <p> Exemplo: </p> <p><span class="codeph">http://pixel.everesttech.net/1180/t?ev_revenue&amp;order=12&amp;ev_transid=</span> </p> </td> 
    <td colname="col3"> <p>Verifique se os parâmetros de propriedade de transação não contêm um E comercial (&amp;) não codificado ou um ponto de interrogação. Elas quebram o formato do URL. </p> <p> <p>Aviso: Parâmetros de propriedade que contêm um E comercial (&amp;) não codificado ou um ponto de interrogação (por exemplo: <span class="codeph"> ev_formComplete?=1</span> ou <span class="codeph"> ev_formComplete&amp;Submit=1</span>), pode resultar em perda de dados. </p> </p> </td> 
   </tr> 
   <tr> 
@@ -167,14 +170,14 @@ Os testes de configuração verificam configurações, valores ou possíveis con
     <draft-comment>
       1.0.1 
     </draft-comment> <p><b>Advertising Cloud - ID de transação implementada corretamente</b> </p> <p>Peso: 1 </p> </td> 
-   <td colname="col2"> <p> O nome da propriedade <span class="codeph"> ev_transid=</span> não deve estar vazio. </p> <p>Exemplo: </p> <p> <span class="codeph"> http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue= 12&amp; ev_transid=</span> </p> </td> 
+   <td colname="col2"> <p> O nome da propriedade <span class="codeph"> ev_transid=</span> não deve estar vazio. </p> <p>Exemplo: </p> <p> <span class="codeph">http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue= 12&amp; ev_transid=</span> </p> </td> 
    <td colname="col3"> <p>O nome da propriedade <span class="codeph"> ev_transid=</span> não deve ser deixado sem um valor (<span class="codeph"> ev_transid=</span>). Se isso for deixado sem um valor, pode haver perda de dados de transação. Atribua um valor a <span class="codeph"> ev_transid=</span> ou remova o parâmetro do pixel. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Analytics - Instanciado no DOM</b> </p> <p>Peso: 5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/pt_BR/sc/implement/impl_testing.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b>Analytics - Instanciado no DOM</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/analytics/implementation/home.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p> O código do Adobe Analytics não está instalado ou não está sendo executado. Retorna 0 quando nenhum código de análise for encontrado na página da Web. </p> </td> 
    <td colname="col3"> <p>Verifique se a tag do Analytics está implementada na página e se não está bloqueada por atividades de script subsequentes. </p> </td> 
   </tr> 
@@ -182,7 +185,7 @@ Os testes de configuração verificam configurações, valores ou possíveis con
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Analytics - Instanciado uma vez</b> </p> <p>Peso: 5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/pt_BR/sc/implement/" format="https" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b>Analytics - Instanciado uma vez</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/analytics/implementation/home.html" format="https" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p> O código do Adobe Analytics foi detectado mais de uma vez na página. . Retorna 0 quando nenhum código de análise for encontrado na página da Web. </p> </td> 
    <td colname="col3"> <p>Verifique se há apenas uma tag do Analytics na página. </p> </td> 
   </tr> 
@@ -190,7 +193,7 @@ Os testes de configuração verificam configurações, valores ou possíveis con
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Analytics - Versão mais recente</b> </p> <p>Peso: 3 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/sc/appmeasurement/release" format="https" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b>Analytics - Versão mais recente</b> </p> <p>Peso: 3 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/analytics/implementation/appmeasurement-updates.html" format="https" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p> Suas páginas não estão executando a versão mais recente da biblioteca de códigos do Analytics. As bibliotecas de código que alimentam as tecnologias da Experience Cloud estão sendo constantemente atualizadas e aprimoradas para aproveitar as melhorias de desempenho e fornecer os recursos mais recentes. Retorna 0 quando nenhum código de análise for encontrado na página da Web. </p> </td> 
    <td colname="col3"> <p>Instale a última versão da biblioteca Analytics. </p> </td> 
   </tr> 
@@ -198,7 +201,7 @@ Os testes de configuração verificam configurações, valores ou possíveis con
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>DTM - tags de terceiros são carregadas de forma assíncrona após DOM pronto</b> </p> <p>Peso: 3 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/pt_BR/dtm/load_order.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b>DTM - tags de terceiros são carregadas de forma assíncrona após DOM pronto</b> </p> <p>Peso: 3 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/dtm/using/resources/load-order.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p>Para obter um equilíbrio entre uma boa experiência do usuário e a coleta de dados precisos, as tags de terceiros devem ser acionadas no DOM pronto. Isso garantirá que esses scripts de rastreamento sejam executados sem afetar a funcionalidade do site. </p> </td> 
    <td colname="col3"> <p>Resolva esse problema ajustando todas as regras que executam pixels de terceiros para serem acionados no DOM Ready. </p> </td> 
   </tr> 
@@ -206,7 +209,7 @@ Os testes de configuração verificam configurações, valores ou possíveis con
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Serviço da Experience Cloud ID - Versão mais recente</b> </p> <p>Peso: 2 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/pt_BR/dtm/macid.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b>Serviço da Experience Cloud ID - Versão mais recente</b> </p> <p>Peso: 2 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/dtm/using/tools/macid.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p> Suas páginas não estão executando a versão mais recente da biblioteca de códigos do Serviço de ID de visitante, <span class="codeph"> visitorAPI.js</span>. As bibliotecas de código que alimentam as tecnologias da Experience Cloud estão sendo constantemente atualizadas e aprimoradas para aproveitar as melhorias de desempenho e fornecer os recursos mais recentes. </p> </td> 
    <td colname="col3"> <p>Instale a versão mais recente da biblioteca do serviço de ID de visitante. </p> </td> 
   </tr> 
@@ -222,7 +225,7 @@ Os testes de configuração verificam configurações, valores ou possíveis con
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Target - Versão mais recente</b> </p> <p>Peso: 2 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/pt_BR/target/dtm/update-target-tool.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b>Target - Versão mais recente</b> </p> <p>Peso: 2 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/dtm/using/tools/target.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p> Suas páginas não estão executando a versão mais recente da biblioteca de códigos do Target. As bibliotecas de código que alimentam as tecnologias da Experience Cloud estão sendo constantemente atualizadas e aprimoradas para aproveitar as melhorias de desempenho e fornecer os recursos mais recentes. </p> </td> 
    <td colname="col3"> <p>Instale a última versão da biblioteca Target. </p> </td> 
   </tr> 
@@ -230,7 +233,7 @@ Os testes de configuração verificam configurações, valores ou possíveis con
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Target - mboxDefault precede mboxCreate </b> </p> <p>Peso: 5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-mboxcreate.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b>Target - mboxDefault precede mboxCreate </b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/target/using/implement-target/implementing-target.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p>O uso correto de <span class="codeph"> mboxCreate</span> é semelhante a: </p> <p> <span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;!-Conteúdo do cliente—&gt;&lt;/div&gt;&lt;script&gt;mboxCreate('myMboxName')&lt;/script&gt;</span> </p> </td> 
    <td colname="col3"> <p>Certifique-se de incluir uma tag <span class="codeph"> &lt;div class="mboxDefault"&gt;&lt;/div&gt;</span> antes de chamar <span class="codeph"> mboxCreate()</span>. O at.js não adicionará um para você. </p> </td> 
   </tr> 
@@ -238,7 +241,7 @@ Os testes de configuração verificam configurações, valores ou possíveis con
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Target - DOCTYPE válido</b> </p> <p>Peso: 5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/en_US/target/ov2/r_target-atjs-mboxcreate.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b>Target - DOCTYPE válido</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/target/using/implement-target/implementing-target.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p> Um DOCTYPE inválido foi detectado. Nenhuma mbox será acionada neste cenário. </p> <p>Para at.js, DOCTYPE deve estar no modo Padrões ou o Target não funcionará. </p> </td> 
    <td colname="col3"> <p>Atualize o DOCTYPE na página. </p> </td> 
   </tr> 
@@ -264,7 +267,7 @@ Os testes de consistência do auditor procuram inconsistências em todas as pág
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Analytics - Versão de código consistente </b> </p> <p>Peso: 5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/pt_BR/sc/implement/choose-implementation-method.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b>Analytics - Versão de código consistente </b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/analytics/implementation/home.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p> Mais de uma versão do código do Analytics foi encontrada. </p> </td> 
    <td colname="col3"> <p>Substitua todas as instâncias do Analytics pela versão atual. </p> </td> 
   </tr> 
@@ -306,7 +309,7 @@ O Auditor avalia se a tag existe e se está no lugar certo no código da sua pá
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Analytics - Carregado no DOM</b> </p> <p>Peso: 5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/pt_BR/sc/implement/" format="https" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b>Analytics - Carregado no DOM</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/analytics/implementation/home.html" format="https" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p> A tag do Adobe Analytics não foi detectada. </p> </td> 
    <td colname="col3"> <p>Instale a versão mais recente do Analytics. </p> </td> 
   </tr> 
@@ -326,7 +329,7 @@ O Auditor avalia se a tag existe e se está no lugar certo no código da sua pá
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b> DTM - Um código incorporado</b> </p> <p>Peso: 5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/pt_BR/dtm/code.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b> DTM - Um código incorporado</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/dtm/using/client-side/code.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p> Os sites de produção devem carregar apenas uma biblioteca do DTM. </p> </td> 
    <td colname="col3"> <p>Verifique se apenas a biblioteca de produção está sendo carregada na página. </p> </td> 
   </tr> 
@@ -350,7 +353,7 @@ O Auditor avalia se a tag existe e se está no lugar certo no código da sua pá
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Serviço da Experience Cloud ID - Presença do código</b> </p> <p>Peso: 5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/pt_BR/mcvid/mcvid-overview.htmlimplementation-guides.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b>Serviço da Experience Cloud ID - Presença do código</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-methods.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p>O código do Serviço da Experience Cloud ID não foi encontrado. A Experience Cloud ID (MCID) é altamente recomendada para garantir que você obtenha o máximo de valor das soluções da Experience Cloud e seja essencial para o gerenciamento de ID nas soluções da Experience Cloud. </p> </td> 
    <td colname="col3"> <p> Instale a versão mais recente da MCID. </p> </td> 
   </tr> 
@@ -358,7 +361,7 @@ O Auditor avalia se a tag existe e se está no lugar certo no código da sua pá
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Cookie do serviço da Experience Cloud ID</b> </p> <p>Peso: 5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/pt_BR/mcvid/mcvid-implementation-guides.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b>Cookie do serviço da Experience Cloud ID</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/id-service/using/implementation/implementation-guides.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p> O cookie <span class="codeph"> AMCV_</span> não foi encontrado. É necessário instanciar um objeto de visitante do código <span class="codeph"> VisitorAPI.js</span>. </p> </td> 
    <td colname="col3"> <p> Se esta for uma implementação do DTM, verifique se a AdobeOrg ID foi inserida corretamente na ferramenta MCID. </p> </td> 
   </tr> 
@@ -366,7 +369,7 @@ O Auditor avalia se a tag existe e se está no lugar certo no código da sua pá
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Serviço da Experience Cloud ID - valor da MID presente</b> </p> <p>Peso: 5 </p> <p><a href="https://experiencecloud.adobe.com/resources/help/pt_BR/mcvid/mcvid_cookies.html#concept_37156268512445F287CD4BBB2839FFAA__section_C55AF54828DC4CCE89F6118655D694C8" format="html" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b>Serviço da Experience Cloud ID - valor da MID presente</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/id-service/using/intro/cookies.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p> O valor MID não foi encontrado no cookie <span class="codeph"> AMCV_</span>. </p> </td> 
    <td colname="col3"> <p>Teste novamente para verificar se há latência de API MCID. Se a condição persistir, entre em contato com o Atendimento ao cliente da Adobe. </p> </td> 
   </tr> 
