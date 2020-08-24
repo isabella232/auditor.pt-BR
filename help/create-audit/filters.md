@@ -4,11 +4,11 @@ seo-description: Incluir filtros que restringem os links que uma auditoria pode 
 seo-title: Incluir e excluir filtros
 title: Incluir e excluir filtros
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '804'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -102,10 +102,10 @@ Os filtros Excluir impedem que os URLs sejam auditados. Você pode usar URLs exa
 
 Você pode testar seus filtros e URLs no Auditor.
 
-Ao criar sua auditoria, clique em **[!UICONTROL Testar filtros avançados]**. Insira seus filtros e URLs e clique em **[!UICONTROL Aplicar]**.
+Ao criar sua auditoria, clique em **[!UICONTROL Test Advanced Filters]**. Insira seus filtros e URLs e clique em **[!UICONTROL Apply]**.
 
 ![](assets/test-advanced-filters.png)
 
 ## Documentação do ObservePoint {#section-79cdc8e850d047969b6d2badf6bbd6f9}
 
-Este artigo foi desenvolvido em cooperação com a ObservePoint. For the latest information, refer to the [ObservePoint documentation](https://help.observepoint.com/.
+Este artigo foi desenvolvido em cooperação com a ObservePoint. Para obter as informações mais recentes, consulte a [documentação do ObservePoint](https://help.observepoint.com/).
