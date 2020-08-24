@@ -4,9 +4,9 @@ seo-description: Introdução ao Auditor
 seo-title: Introdução
 title: Introdução
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Na primeira vez que utilizar o Auditor, deverá concluir e aceitar o acordo do A
 
 ## Execução da primeira verificação {#task-b211597afed343cfa238443fcf7c6041}
 
-1. Clique no botão de menu no canto superior direito da barra de navegação da Adobe Experience Cloud e clique em **[!UICONTROL Ativação]**.
+1. Clique no botão de menu no canto superior direito da barra de navegação da Adobe Experience Cloud e clique em **[!UICONTROL Activation]**.
 
    ![](assets/activate.png)
 
@@ -35,15 +35,15 @@ Na primeira vez que utilizar o Auditor, deverá concluir e aceitar o acordo do A
 
    ![](assets/home.png)
 
-1. Clique em **[!UICONTROL Nova auditoria]**.
+1. Clique em **[!UICONTROL New Audit]**.
 
-   Para executar uma nova verificação, clique em **[!UICONTROL Nova auditoria]** no canto superior direito da tela.
+   Para executar uma nova verificação, clique em **[!UICONTROL New Audit]** no canto superior direito da tela.
 
    ![](assets/new-audit-button.png)
 
 1. Configure a verificação.
 
-   Nomeie a auditoria, forneça um URL inicial e clique em **[!UICONTROL Executar relatório]**. Após a conclusão da verificação, você receberá uma notificação por e-mail.
+   Nomeie a auditoria, forneça um URL inicial e clique em **[!UICONTROL Run Report]**. Após a conclusão da verificação, você receberá uma notificação por e-mail.
 
    ![](assets/config.png)
 
