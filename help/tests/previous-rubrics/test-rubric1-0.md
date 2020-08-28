@@ -4,11 +4,11 @@ seo-description: informações sobre os testes do Adobe Auditor
 seo-title: Testar rubrica 0.0.8
 title: Testar rubrica 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3ab954f45bd12758b7bfe100a30c8a9859613b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1998'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -96,7 +96,7 @@ O auditor avalia as tags em relação a outras regras e práticas recomendadas.
   <tbody> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - Os nomes de conversão usam somente caracteres alfanuméricos</b> </p> <p>Peso: 3 </p> </td> 
-    <td colname="col2"> <p>O parâmetro <span class="codeph"> ev_conversion_property_name</span> deve conter apenas valores numéricos e decimais, EXCETO para o parâmetro "<span class="codeph"> ev_transid</span>" (o valor <span class="codeph"> ev_transid</span> pode conter valores de texto ou numéricos) </p> <p>Procure por pixels <span class="codeph"> everesttech.net</span> que contenham um parâmetro de URL que comece com <span class="codeph"> ev_</span>. </p> <p>Exemplo: </p> <p><span class="codeph"> http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue=$12&amp;ev_transid=1hf74i47</span> </p> </td> 
+    <td colname="col2"> <p>O parâmetro <span class="codeph"> ev_conversion_property_name</span> deve conter apenas valores numéricos e decimais, EXCETO para o parâmetro "<span class="codeph"> ev_transid</span>" (o valor <span class="codeph"> ev_transid</span> pode conter valores de texto ou numéricos) </p> <p>Procure por pixels <span class="codeph"> everesttech.net</span> que contenham um parâmetro de URL que comece com <span class="codeph"> ev_</span>. </p> <p>Exemplo: </p> <p><span class="codeph">http://pixel.everesttech.net/1180/t?ev_page_load=1&amp;ev_revenue=$12&amp;ev_transid=1hf74i47</span> </p> </td> 
     <td colname="col3"> <p> Certifique-se de que seus parâmetros de propriedade de transação contenham apenas valores numéricos e decimais. </p> <p> <p>Aviso:  Qualquer outro tipo de valor pode causar perda de dados. </p> </p> </td> 
    </tr> 
    <tr> 
@@ -110,7 +110,7 @@ O auditor avalia as tags em relação a outras regras e práticas recomendadas.
     <td colname="col3"> <p>O nome da propriedade <span class="codeph"> ev_transid=</span> não deve ser deixado sem um valor (<span class="codeph"> ev_transid=</span>). Se isso for deixado sem um valor, pode haver perda de dados de transação. Atribua um valor a <span class="codeph"> ev_transid=</span> ou remova o parâmetro do pixel. </p> </td> 
    </tr> 
    <tr> 
-    <td colname="col1"> <p><b>Analytics - Instanciado no DOM</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/analytics/implementation/testing-and-validation/testing-and-validation-process/impl-validation.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
+    <td colname="col1"> <p><b>Analytics - Instanciado no DOM</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/analytics/implementation/home.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
     <td colname="col2"> <p> O código do Adobe Analytics não está instalado ou não está sendo executado. Retorna 0 quando nenhum código de análise for encontrado na página da Web. </p> </td> 
     <td colname="col3"> <p>Verifique se a tag do Analytics está implementada na página e se não está bloqueada por atividades de script subsequentes. </p> </td> 
    </tr> 
@@ -250,7 +250,7 @@ O Auditor avalia se a tag existe, se está no lugar certo no código da sua pág
    </tr> 
    <tr> 
     <td colname="col1"> <p><b> Serviço da Experience Cloud ID - deve ser instalado</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/id-service/using/intro/overview.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
-    <td colname="col2"> <p> O código do Serviço da Experience Cloud ID não foi encontrado. A ECID é altamente recomendada para garantir que você obtenha o máximo de valor das soluções da Experience Cloud e seja essencial para o gerenciamento de ID nas soluções da CE. </p> </td> 
+    <td colname="col2"> <p> O código do Serviço da Experience Cloud ID não foi encontrado. A ECID é altamente recomendada para garantir que você obtenha o máximo de valor das soluções da Experience Cloud e seja essencial para o gerenciamento de ID nas soluções da EC. </p> </td> 
     <td colname="col3"> <p>Instale a versão mais recente da MCID. </p> </td> 
    </tr> 
    <tr> 
