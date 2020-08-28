@@ -4,11 +4,11 @@ seo-description: informações sobre os testes do Adobe Auditor
 seo-title: Testar rubrica 1.0.1
 title: Testar rubrica 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c3ab954f45bd12758b7bfe100a30c8a9859613b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2747'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -353,7 +353,7 @@ O Auditor avalia se a tag existe e se está no lugar certo no código da sua pá
    <td colname="col1"> 
     <draft-comment>
       1.0.1 
-    </draft-comment> <p><b>Serviço da Experience Cloud ID - Presença do código</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-methods.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
+    </draft-comment> <p><b>Serviço da Experience Cloud ID - Presença do código</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/id-service/using/implementation/implementation-methods.html" format="html" scope="external"> Informações adicionais</a> </p> </td> 
    <td colname="col2"> <p>O código do Serviço da Experience Cloud ID não foi encontrado. A Experience Cloud ID (MCID) é altamente recomendada para garantir que você obtenha o máximo de valor das soluções da Experience Cloud e seja essencial para o gerenciamento de ID nas soluções da Experience Cloud. </p> </td> 
    <td colname="col3"> <p> Instale a versão mais recente da MCID. </p> </td> 
   </tr> 
