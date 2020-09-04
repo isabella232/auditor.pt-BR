@@ -4,10 +4,10 @@ seo-description: informações sobre os testes do Adobe Auditor
 seo-title: Testar rubrica 0.0.8
 title: Testar rubrica 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
-translation-type: ht
-source-git-commit: c3ab954f45bd12758b7bfe100a30c8a9859613b9
-workflow-type: ht
-source-wordcount: '1998'
+translation-type: tm+mt
+source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
+workflow-type: tm+mt
+source-wordcount: '1983'
 ht-degree: 100%
 
 ---
@@ -58,9 +58,9 @@ Os alertas mostram problemas que você deve estar ciente, mas que não afetam su
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>DTM - posição de retorno de chamada pageBottom</b> </p> <p>Peso: 0 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Informações adicionais</a> </p> 
-     <draft-comment>
+     <!--
        TEa9df69942f404055a64262889c8b21d3 
-     </draft-comment> </td> 
+     --> </td> 
     <td colname="col2"> <p> O Dynamic Tag Management exige a função<span class="codeph"> _satellite.pageBottom()</span>. </p> <p>É prática recomendada que a tag seja a <i>última</i> tag no <span class="codeph"> &lt;body&gt;</span>. Se for encontrada dentro da tag <span class="codeph"> &lt;body&gt;</span>, ela tem uma chance de funcionar, mas como não é a prática recomendada, ela pode funcionar incorretamente ou com resultados inesperados ou indesejados. </p> </td> 
     <td colname="col3"> <p>Adicione o script em linha imediatamente antes da tag de fechamento <span class="codeph"> &lt;/body&gt;</span> para garantir a funcionalidade adequada do DTM. </p> </td> 
    </tr> 
@@ -255,9 +255,9 @@ O Auditor avalia se a tag existe, se está no lugar certo no código da sua pág
    </tr> 
    <tr> 
     <td colname="col1"> <p><b> Target - Biblioteca carregada em &lt;head&gt;</b> </p> <p>Peso: 4 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/target/using/implement-target/implementing-target.html" format="html" scope="external"> Informações adicionais</a> </p> 
-     <draft-comment>
+     <!--
        TE61c380082a4b4706b28a84aa047599a7 
-     </draft-comment> </td> 
+     --> </td> 
     <td colname="col2"> <p> A biblioteca do Target deve ser carregada na tag <span class="codeph"> &lt;head&gt;</span>. </p> </td> 
     <td colname="col3"> <p> Verifique se a biblioteca do Target está carregada na tag <span class="codeph"> &lt;head&gt;</span>. </p> </td> 
    </tr> 
