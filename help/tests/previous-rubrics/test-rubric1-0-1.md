@@ -4,9 +4,9 @@ seo-description: informações sobre os testes do Adobe Auditor
 seo-title: Testar rubrica 1.0.1
 title: Testar rubrica 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2684'
 ht-degree: 100%
 
