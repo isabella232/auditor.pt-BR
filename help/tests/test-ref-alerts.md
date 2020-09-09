@@ -4,9 +4,9 @@ seo-description: Esta referência fornece mais informações sobre os alertas qu
 seo-title: Alertas
 title: Alertas
 uuid: 8f05b3c1-2427-4691-a88f-1de98f120a02
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '904'
 ht-degree: 100%
 
@@ -100,7 +100,7 @@ Os alertas mostram problemas que você deve estar ciente, mas que não afetam su
     <!--
       TE48c499b022f545c5bccc6f8bde169685 
     --> </td> 
-   <td colname="col2"> <p>O Launch deve ter uma função de <span class="codeph"> retorno de chamada </span>pageBottom definida por último no corpo da página se implantada sincronicamente </p> <p> <p>Observação: É prática recomendada que a tag seja a <i>última</i> tag no <span class="codeph"> &lt;body&gt;</span>. Se for encontrada dentro da tag <span class="codeph"> &lt;body&gt;</span>, ela tem uma chance de funcionar, mas como não é a prática recomendada, ela pode funcionar incorretamente ou com resultados inesperados ou indesejados. </p> </p> </td> 
+   <td colname="col2"> <p>O Launch deve ter uma função de <span class="codeph"> retorno de chamada </span>pageBottom definida por último no corpo da página se implantada sincronicamente. </p> <p> <p>Observação: É prática recomendada que a tag seja a <i>última</i> tag no <span class="codeph"> &lt;body&gt;</span>. Se for encontrada dentro da tag <span class="codeph"> &lt;body&gt;</span>, ela tem uma chance de funcionar, mas como não é a prática recomendada, ela pode funcionar incorretamente ou com resultados inesperados ou indesejados. </p> </p> </td> 
    <td colname="col3"> <p>O Launch requer a função <span class="codeph"> _satellite.pageBottom()</span> para implantações síncronas. Adicione o script em linha imediatamente antes da tag de fechamento <span class="codeph"> &lt;/body&gt;</span> para garantir a funcionalidade do Launch correta. </p> </td> 
   </tr> 
   <tr> 
