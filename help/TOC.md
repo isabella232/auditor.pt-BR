@@ -1,15 +1,15 @@
 ---
 cloud: experience-cloud
 product: auditor
-sub-product: revisor
+sub-product: auditor
 audience: end-user
 user-guide-title: Ajuda do Experience Platform Auditor
 breadcrumb-title: Auditor Guide
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 65cda335ae83c5a49cde06f54570bfac0ec88b32
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '55'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
