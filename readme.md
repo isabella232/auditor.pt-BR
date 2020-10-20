@@ -1,9 +1,16 @@
 ---
-source-git-commit: cd2b8452627969f42c27d4679a09abf4c7abc993
-translation-type: ht
+source-git-commit: 11340be8ca4288cbe4c6129f44a05677cfd3112e
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '509'
+ht-degree: 85%
 
 ---
 # Contribuir com o artigo
+
+| EXL-PR | EXL | Visualização | Ativar | Publicado | Ajuda |
+|--- |--- |--- |--- |--- |--- |
+| [![Status da compilação](https://docs.ci.corp.adobe.com/view/exl-pr/job/auditor.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/auditor.en_pr-exl/lastBuild/) | [![Status da compilação](https://docs.ci.corp.adobe.com/view/exl-pr/job/auditor.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/auditor.en_exl/lastBuild/lastBuild) | [URL de pré-visualização](https://experienceleague.corp.adobe.com/docs/auditor/using/overview.html?lang=en) | [ativate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [Live URL](https://experienceleague.adobe.com/docs/auditor/using/overview.html?lang=en) | [Guia de criação](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 Aceitamos contribuições de nossa comunidade e de funcionários da Adobe que estão fora das equipes de documentação.
 
