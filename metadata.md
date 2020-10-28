@@ -10,11 +10,11 @@ tutorials-title: Tutoriais
 tutorials-url: https://helpx.adobe.com/br/analytics/how-to/adobe-launch-publishing-process.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/auditor.pt-BR
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 2e674de10ad6767612d2962789daa015cbfb5946
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '134'
+ht-degree: 100%
 
 ---
 
