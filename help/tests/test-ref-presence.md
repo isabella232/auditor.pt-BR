@@ -1,23 +1,23 @@
 ---
-description: Esta referência fornece mais informações sobre os testes que o Auditor realiza para a presença de tags.
-seo-description: Esta referência fornece mais informações sobre os testes que o Auditor realiza para a presença de tags.
+description: Esta referência fornece mais informações sobre os testes que o Adobe Experience Platform Auditor realiza para a presença de tags.
+seo-description: Esta referência fornece mais informações sobre os testes que o Adobe Experience Platform Auditor realiza para a presença de tags.
 seo-title: Presença de tag
 title: Presença de tag
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: ht
-source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
-workflow-type: ht
-source-wordcount: '935'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '958'
+ht-degree: 79%
 
 ---
 
 
 # Presença de tag
 
-Esta referência fornece mais informações sobre os testes que o Auditor realiza para a presença de tags.
+Esta referência fornece mais informações sobre os testes que o Adobe Experience Platform Auditor realiza para a presença de tags.
 
-O Auditor avalia se a tag existe e se está no lugar certo no código da sua página.
+O Platform Auditor avalia se a tag existe e se está no local certo no código da sua página.
 
 <table id="table_98A2E3F7B3154EEFA76D0CAE2FE97CAB"> 
  <thead> 
@@ -31,12 +31,12 @@ O Auditor avalia se a tag existe e se está no lugar certo no código da sua pá
   <tr> 
    <td colname="col1"> <p><b>Advertising Cloud - Presença de código</b> </p> <p>Peso: 5 </p> </td> 
    <td colname="col2"> <p> A tag da Advertising Cloud não está disponível no DOM. </p> </td> 
-   <td colname="col3"> <p>Implemente a tag da Advertising Cloud usando a Extensão Advertising Cloud Launch. </p> </td> 
+   <td colname="col3"> <p>Implemente a tag Advertising Cloud usando a extensão Advertising Cloud para Adobe Experience Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Advertising Cloud - Pixel de segmento implementado</b> </p> <p>Peso: 5 </p> </td> 
    <td colname="col2"> <p> Atualize seus pixels de segmento da Advertising Cloud para as novas tags somente de imagem da Advertising Cloud. O uso de tags de segmento AMO obsoletas pode resultar em perda de dados. </p> </td> 
-   <td colname="col3"> <p>Implemente o pixel do segmento da Advertising Cloud usando a Extensão Advertising Cloud Launch. </p> </td> 
+   <td colname="col3"> <p>Implemente o pixel do segmento Advertising Cloud usando a extensão Advertising Cloud para lançamento da plataforma. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Analytics - Carregado no DOM</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/analytics/implementation/home.html" format="https" scope="external"> Informações adicionais</a> </p> </td> 
@@ -96,15 +96,15 @@ O Auditor avalia se a tag existe e se está no lugar certo no código da sua pá
     <!--
       1.0.5 
     --> <p><b> Launch - Biblioteca carregada</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informações adicionais</a> </p> </td> 
-   <td colname="col2"> <p> Um objeto _satellite global não foi encontrado no DOM. O Launch não está instalado ou não está sendo executado. </p> </td> 
-   <td colname="col3"> <p>Verifique se a biblioteca do Launch está implementada na página e não está bloqueada pelas atividades subsequentes de script. </p> </td> 
+   <td colname="col2"> <p> Um objeto _satellite global não foi encontrado no DOM. O lançamento da plataforma não está instalado ou não está sendo executado. </p> </td> 
+   <td colname="col3"> <p>Verifique se a biblioteca do Platform Launch está implementada na página e se não está bloqueada por atividades de script subsequentes. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.5 
     --> <p><b>Launch - Não tem vários scripts incorporados</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informações adicionais</a> </p> </td> 
-   <td colname="col2"> <p>Não deve haver vários scripts incorporados carregados na página. Os sites de produção devem carregar apenas uma biblioteca do Launch. </p> </td> 
+   <td colname="col2"> <p>Não deve haver vários scripts incorporados carregados na página. Os sites de produção devem carregar apenas uma biblioteca de lançamento de plataforma. </p> </td> 
    <td colname="col3"> <p>Verifique se apenas a biblioteca de produção está sendo carregada na página. </p> </td> 
   </tr> 
   <tr> 
@@ -112,16 +112,16 @@ O Auditor avalia se a tag existe e se está no lugar certo no código da sua pá
     <!--
       1.0.5 
     --> <p><b>Launch - o retorno de chamada pageBottom existe em &lt;body&gt;</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informações adicionais</a> </p> </td> 
-   <td colname="col2"> <p> O retorno de chamada <span class="codeph"> _satellite.pageBottom()</span> não foi encontrado dentro do <span class="codeph"> &lt;body&gt;</span> da página, que é exigido pelo Launch. </p> <p>Esse teste falhará se a <span class="codeph"> chamada </span>pageBottom não for encontrada na página, ou se estiver na tag <span class="codeph"> &lt;head&gt;</span> (ou em algum outro local inesperado). Ele só passará se <span class="codeph"> pageBottom</span> for encontrado em algum lugar dentro da tag <span class="codeph"> &lt;body&gt;</span>. Se não estiver na página, não funcionará e os outros dois testes <span class="codeph"> pageBottom</span> também falharão. </p> </td> 
-   <td colname="col3"> <p>Adicione o script em linha imediatamente antes da tag de fechamento <span class="codeph"> &lt;/body&gt;</span> para garantir a funcionalidade do Launch correta. </p> </td> 
+   <td colname="col2"> <p> The <span class="codeph"> _satellite.pageBottom()</span> callback was not found within the <span class="codeph"> &lt;body&gt;</span> of the page, which is required by Platform Launch. </p> <p>Esse teste falhará se a <span class="codeph"> chamada </span>pageBottom não for encontrada na página, ou se estiver na tag <span class="codeph"> &lt;head&gt;</span> (ou em algum outro local inesperado). Ele só passará se <span class="codeph"> pageBottom</span> for encontrado em algum lugar dentro da tag <span class="codeph"> &lt;body&gt;</span>. Se não estiver na página, não funcionará e os outros dois testes <span class="codeph"> pageBottom</span> também falharão. </p> </td> 
+   <td colname="col3"> <p>Add the inline script immediately prior to the closing <span class="codeph"> &lt;/body&gt;</span> tag to ensure proper Platform Launch functionality. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.5 
     --> <p><b>Launch - o retorno de chamada pageBottom não deve existir quando implantado de forma assíncrona</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informações adicionais</a> </p> </td> 
-   <td colname="col2"> <p>O retorno de chamada <span class="codeph"> _satellite.pageBottom()</span> foi encontrado na página, o que não deve ocorrer quando o Launch é implantado de forma assíncrona. </p> </td> 
-   <td colname="col3"> <p>Remova o script<span class="codeph"> _satellite.pageBottom()</span> para ativar a funcionalidade do Launch correta. </p> </td> 
+   <td colname="col2"> <p>The <span class="codeph"> _satellite.pageBottom()</span> callback was found on the page, which should not be the case when Platform Launch is asynchronously deployed. </p> </td> 
+   <td colname="col3"> <p>Remove the<span class="codeph"> _satellite.pageBottom()</span> script to enable proper Platform Launch functionality. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
