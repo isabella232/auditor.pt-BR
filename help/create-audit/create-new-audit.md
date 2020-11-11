@@ -1,14 +1,14 @@
 ---
-description: Criar uma nova auditoria no Auditor
-seo-description: Criar uma nova auditoria no Auditor
-seo-title: Criar uma nova auditoria no Auditor
-title: Criar uma nova auditoria no Auditor
+description: Criar uma nova auditoria no Adobe Experience Platform Auditor
+seo-description: Criar uma nova auditoria no Adobe Experience Platform Auditor
+seo-title: Criar uma nova auditoria no Adobe Experience Platform Auditor
+title: Criar uma nova auditoria no Adobe Experience Platform Auditor
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
-translation-type: ht
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: ht
-source-wordcount: '501'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '517'
+ht-degree: 73%
 
 ---
 
@@ -32,7 +32,7 @@ Se desejar, use o link na parte inferior da página para acessar uma conta de av
    O nome pode ter até 250 caracteres.
 1. (Obrigatório) Especifique o URL inicial.
 
-   O protocolo é necessário ao especificar o URL inicial. O URL inicial é a página na qual a auditoria começa a rastrear. Depois de iniciado, o Auditor pesquisa até 500 páginas, seguindo os links que começam no URL inicial. Consulte [Incluir e excluir filtros](../create-audit/filters.md) para obter mais informações. O URL inicial pode ter até 250 caracteres.
+   O protocolo é necessário ao especificar o URL inicial. O URL inicial é a página na qual a auditoria começa a rastrear. Depois de iniciado, o Adobe Experience Platform Auditor rastreia até 500 páginas, seguindo os links que começam no URL inicial. Consulte [Incluir e excluir filtros](../create-audit/filters.md) para obter mais informações. O URL inicial pode ter até 250 caracteres.
 
    >[!NOTE]
    >
@@ -43,22 +43,23 @@ Se desejar, use o link na parte inferior da página para acessar uma conta de av
    Você pode especificar vários e-mails ao separá-los com uma vírgula. O solicitante é notificado por padrão. Os endereços de e-mail são validados em tempo real. Se você digitar um endereço inválido, seu nome será notificado na tela.
 
    Cada e-mail tem no máximo 250 caracteres, incluindo o fim do domínio (por exemplo, .com).
-1. Especifique Incluir filtros.
 
-   Esse campo pode conter URLs exatos, URLs parciais ou expressões regulares. Use este campo para os critérios que deseja que cada URL corresponda. Quaisquer URLs rastreados que não correspondem aos critérios de Incluir filtro não são incluídos nos resultados da auditoria.
+1. Specify [!UICONTROL Include Filters].
+
+   Esse campo pode conter URLs exatos, URLs parciais ou expressões regulares. Use este campo para os critérios que deseja que cada URL corresponda. Any crawled URLs that do not match the [!UICONTROL Include Filter] criteria are not included in the audit results.
 
    Você pode inserir diretórios que deseja que a auditoria verifique. Ou você pode executar auditoria entre domínios ou de automatização, onde é necessário iniciar a auditoria em um domínio e terminar em outro. Para fazer isso, digite os domínios que deseja navegar; para padrões complexos de URL, use uma expressão regular.
 
    >[!NOTE]
    >
-   >Se você incluir uma página em seus filtros, mas ela não estiver conectada ao URL inicial, ou o Auditor verificar 500 páginas antes de chegar a essa página, a página não será digitalizada e não será incluída nos resultados do teste.
+   >Se você incluir uma página em seus filtros, mas ela não estiver conectada ao seu URL inicial, ou o Auditor da Plataforma verificar 500 páginas antes de chegar a essa página, a página não será digitalizada e não será incluída nos resultados do teste.
 
    Os filtros de inclusão são limitados a 1.000 caracteres por linha.
 
    Consulte [Incluir lista](../create-audit/filters.md) para obter mais informações.
 1. Especifique Excluir filtros.
 
-   A Lista de exclusões impede que os URLs sejam auditados. Use URLs exatos, URLs parciais ou expressões regulares, como faria na Lista de inclusão.
+   The [!UICONTROL Exclude List] prevents URLs from being audited. Use exact URLs, partial URLs, or regular expressions, just as you would in the [!UICONTROL Include List].
 
    Uma prática comum é excluir um link de logout se a auditoria tiver uma sessão de usuário (por exemplo: `/logout`, ou seja, qualquer URL que contenha a string `/logout`).
 
