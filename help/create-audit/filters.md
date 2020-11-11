@@ -4,11 +4,11 @@ seo-description: Incluir filtros que restringem os links que uma auditoria pode 
 seo-title: Incluir e excluir filtros
 title: Incluir e excluir filtros
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
-translation-type: ht
-source-git-commit: a76ecb232c29d83ef82b14be460d9ce60f5e8662
-workflow-type: ht
-source-wordcount: '804'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '808'
+ht-degree: 85%
 
 ---
 
@@ -27,7 +27,7 @@ Incluir filtros e Excluir filtros fornecem diretrizes para auditorias. Deixando 
 
 Ao aplicar Incluir filtros, Excluir filtros ou uma combinação de ambos, as instruções relacionadas aos links que uma auditoria pode rastrear podem ser fornecidas.
 
-Qualquer item no campo Incluir filtros restringe a verificação somente às páginas que correspondem a esse item. Qualquer item em um campo Excluir filtros impede que qualquer página que corresponda a esse item seja digitalizada.
+Any item in the [!UICONTROL Include Filters] field restricts the scan to only the pages that match that item. Any item in an [!UICONTROL Exclude Filters] field prevents any pages that match that item from being scanned.
 
 Os filtros Incluir e Excluir podem ser URLs completos, URLs parciais ou expressões regulares que correspondam a uma página válida.
 
@@ -53,7 +53,7 @@ Os filtros Incluir e Excluir podem ser URLs completos, URLs parciais ou express�
 
 ## URL inicial {#section-ccb46abcd96f4a8ab171245015d2b724}
 
-O Auditor requer uma única página para o URL inicial. O URL inicial é sempre visitado antes de qualquer outro URL. Quaisquer links descobertos na página inicial são elegíveis para visita, sujeitos aos filtros Incluir e Excluir. Se um item Excluir corresponder a um URL inicial, ele será ignorado.
+O Adobe Experience Platform Auditor requer uma única página para o URL inicial. O URL inicial é sempre visitado antes de qualquer outro URL. Quaisquer links descobertos na página inicial são elegíveis para visita, sujeitos aos filtros Incluir e Excluir. Se um item Excluir corresponder a um URL inicial, ele será ignorado.
 
 ## Incluir filtros {#section-7626060a56a24b658f8c05f031ac3f5f}
 
@@ -76,9 +76,9 @@ Por padrão, uma auditoria verificará todos os subdomínios do URL inicial. A m
 
 Isso torna qualquer link encontrado na página Iniciando URL elegível para visita. Corresponde a qualquer página em qualquer subdomínio do URL inicial.
 
-O uso do filtro Incluir padrão fornece um intervalo amplo para que uma auditoria seja rastreada. Para entrar em determinadas seções ou páginas, forneça instruções específicas para sua auditoria adicionando filtros nesta caixa. Nesse caso, substitua o valor padrão pelos diretórios que você deseja que a auditoria verifique. Você também pode usar filtros de inclusão para executar auditoria entre domínios, onde é necessário iniciar a auditoria em um domínio e terminar em outro. Para fazer isso, digite os domínios que deseja atravessar. Em qualquer caso, para que os URLs de Incluir filtro sejam encontrados, eles devem ser descobertos em uma página auditada.
+O uso do filtro Incluir padrão fornece um intervalo amplo para que uma auditoria seja rastreada. Para entrar em determinadas seções ou páginas, forneça instruções específicas para sua auditoria adicionando filtros nesta caixa. Nesse caso, substitua o valor padrão pelos diretórios que você deseja que a auditoria verifique. Você também pode usar Incluir filtros para executar auditoria entre domínios, onde é necessário start da auditoria em um domínio e terminar em outro. Para fazer isso, digite os domínios que deseja atravessar. Em qualquer caso, para que os URLs de filtro Incluir sejam encontrados, eles devem ser descobertos em uma página auditada.
 
-Os filtros de inclusão podem conter URLs exatos, URLs parciais ou expressões regulares. Por exemplo, se o URL inicial for [!DNL http://mysite.com], as seguintes páginas poderão ser digitalizadas por padrão (observe os caracteres em negrito):
+Os filtros Incluir podem conter URLs exatos, URLs parciais ou expressões regulares. Por exemplo, se o URL inicial for [!DNL http://mysite.com], as seguintes páginas poderão ser digitalizadas por padrão (observe os caracteres em negrito):
 
 ```html
 http://mysite.com
@@ -100,7 +100,7 @@ Os filtros Excluir impedem que os URLs sejam auditados. Você pode usar URLs exa
 
 ## Testando filtros e URLs {#section-3cfa125b1756411395a64701e128efa0}
 
-Você pode testar seus filtros e URLs no Auditor.
+Você pode testar seus filtros e URLs no Platform Auditor.
 
 Ao criar sua auditoria, clique em **[!UICONTROL Test Advanced Filters]**. Insira seus filtros e URLs e clique em **[!UICONTROL Apply]**.
 
