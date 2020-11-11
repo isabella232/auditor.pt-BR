@@ -4,8 +4,11 @@ seo-description: O relatório mostra se cada URL foi bem-sucedida ou falhou.
 seo-title: Baixar relatório
 title: Baixar relatório
 uuid: cd5c4db8-e647-4311-9abb-98dd3bbc7ef8
-translation-type: ht
-source-git-commit: c697f3d759ad1f086f16a39e03062431583ffd7f
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '131'
+ht-degree: 90%
 
 ---
 
@@ -16,7 +19,7 @@ O relatório mostra se cada URL foi bem-sucedida ou falhou.
 
 O relatório pode ser exibido na página do Scorecard na interface do usuário. Você também pode baixar o relatório:
 
-1. Na lista Auditor ou em uma tabela de resultados, clique em **[!UICONTROL Baixar relatório]**.
+1. From the Adobe Experience Platform Auditor list or a scorecard, click **[!UICONTROL Download Report]**.
 
    É possível baixar o relatório como uma planilha ou um arquivo PDF.
 1. Especifique se deseja abrir ou salvar o arquivo.
