@@ -1,16 +1,19 @@
 ---
-description: Notas de versão do auditor
+description: Notas de versão do Adobe Experience Platform Auditor
 seo-description: Notas de versão do Adobe Experience Platform Auditor
-seo-title: Notas de versão do auditor
-title: Notas de versão do auditor
+seo-title: Notas de versão do Adobe Experience Platform Auditor
+title: Notas de versão do Adobe Experience Platform Auditor
 uuid: 2e1eb2de-f162-45af-a9b0-15dbdac5531d
-translation-type: ht
-source-git-commit: 35902c30e578980d9675723a874af6da8d7e6a65
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '458'
+ht-degree: 65%
 
 ---
 
 
-# Notas de versão do auditor {#auditor-release-notes}
+# Adobe Experience Platform Auditor release notes{#auditor-release-notes}
 
 ## 5 de fevereiro de 2019 {#section-f73142fd7c85492a806c7fc19a33a525}
 
@@ -26,7 +29,7 @@ O número máximo de páginas permitido em uma digitalização foi aumentado de 
 
 **Novos recursos**
 
-Agora você pode cancelar uma auditoria em execução na página do Auditor, na exibição de Cartão ou ao tentar criar uma nova auditoria.
+Agora você pode cancelar uma auditoria em execução na página do Auditor de plataforma, visualização de cartão ou ao tentar criar uma nova auditoria.
 
 ## 4 de junho de 2018 {#section-0747f36a1f4f46638b2c6bf182de9864}
 
@@ -56,18 +59,18 @@ Certifique-se de que o link Administração seja exibido no shell quando um usu�
 
 >[!NOTE]
 >
->O acesso ao Auditor está a ser concedido de forma constante. Todos os clientes terão acesso até o final de abril de 2018.
+>O acesso ao Platform Auditor está a ser concedido de forma constante. Todos os clientes terão acesso até o final de abril de 2018.
 
-O Adobe Experience Platform Auditor aprimora as implementações da Adobe Experience Cloud recomenda melhorias. O Auditor ajuda você a obter mais valor de seus produtos da Adobe, individual e coletivamente.
+O Platform Auditor aprimora as implementações da Adobe Experience Cloud recomenda melhorias. O Platform Auditor ajuda você a obter mais valor dos seus produtos de Adobe, individual e coletivamente.
 
-Com o Auditor, você pode:
+Com o Platform Auditor, você pode:
 
 * **Verifique** as páginas da Web do Scan 100 de cada vez para ver a tecnologia da Adobe. Use filtros avançados para incluir ou excluir quaisquer páginas, conforme necessário. Você pode executar uma auditoria por vez e um número ilimitado de auditorias.
 
 * **Entenda** Receba um relatório que classifica suas implementações da Adobe com base na presença, configuração e consistência de tags.
 
-* **Melhore** Obtenha recomendações sobre como atualizar sua implementação e obter o valor total do seu investimento na Adobe. O Auditor informa exatamente como uma implementação pode ser melhorada, indica a página da Web em que o problema foi encontrado e fornece orientações sobre como corrigi-lo.
+* **Melhore** Obtenha recomendações sobre como atualizar sua implementação e obter o valor total do seu investimento na Adobe. O Platform Auditor informa exatamente como uma implementação pode ser melhorada, indica a página da Web em que o problema foi encontrado e, em seguida, fornece orientações sobre como corrigi-lo.
 
-Ao permitir que você solucione problemas e corrija suas próprias implementações, o Auditor oferece maior controle sobre suas tags de implementação e, portanto, seus dados. Isso reduz a necessidade de entrar em contato com o Atendimento ao cliente com perguntas sobre as tags de implementação.
+Ao capacitá-lo a solucionar problemas e corrigir suas próprias implementações, o Platform Auditor oferece maior controle sobre suas tags de implementação e, portanto, seus dados. Isso reduz a necessidade de entrar em contato com o Atendimento ao cliente com perguntas sobre as tags de implementação.
 
-O Auditor foi desenvolvido como um esforço cooperativo entre a Adobe e o ObservePoint. Os usuários do Auditor podem usar a funcionalidade Limitada do ObservePoint sem custo adicional. Para usar o Auditor, você deve aceitar as comunicações do ObservePoint.
+O Platform Auditor foi desenvolvido como um esforço cooperativo entre o Adobe e o WatchPoint. Os usuários do Platform Auditor podem usar a funcionalidade de ObservePoint limitada sem custo adicional. Para usar o Platform Auditor, você deve aceitar as comunicações do WatchPoint.
