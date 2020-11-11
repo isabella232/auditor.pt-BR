@@ -1,14 +1,14 @@
 ---
-description: informações sobre os testes do Adobe Auditor
-seo-description: informações sobre os testes do Adobe Auditor
+description: informações sobre os testes do Adobe Experience Platform Auditor
+seo-description: informações sobre os testes do Adobe Experience Platform Auditor
 seo-title: Testar rubrica 0.0.8
 title: Testar rubrica 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
-translation-type: ht
-source-git-commit: 77ced60ff8e05515521d89d16c32cbad42d1e8d0
-workflow-type: ht
-source-wordcount: '1983'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+workflow-type: tm+mt
+source-wordcount: '2008'
+ht-degree: 90%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 ## Alertas {#alerts}
 
-Esta referência fornece mais informações sobre os alertas que o Auditor exibe para testes.
+Esta referência fornece mais informações sobre os alertas que o Adobe Experience Platform Auditor exibe para testes.
 
 Os alertas mostram problemas que você deve estar ciente, mas que não afetam sua pontuação.
 
@@ -39,7 +39,7 @@ Os alertas mostram problemas que você deve estar ciente, mas que não afetam su
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - Tag de conversão correta implementada</b> </p> <p>Peso: 0 </p> </td> 
     <td colname="col2"> <p>Verifique se a tag de conversão correta é usada. </p> <p> <p>Aviso:  O uso das tags de conversão TubeMogul obsoletas pode resultar em perda de dados. </p> </p> </td> 
-    <td colname="col3"> <p>Atualize seus pixels de conversão para as novas tags de conversão somente de imagem da Advertising Cloud. </p> <p>Isso pode ser feito com mais facilidade com a Extensão Advertising Cloud Launch. </p> </td> 
+    <td colname="col3"> <p>Atualize seus pixels de conversão para as novas tags de conversão somente de imagem da Advertising Cloud. </p> <p>Isso pode ser feito com mais facilidade com a extensão Advertising Cloud para Adobe Experience Platform Launch. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - tag somente imagem</b> </p> <p>Peso: 0 </p> </td> 
@@ -49,12 +49,12 @@ Os alertas mostram problemas que você deve estar ciente, mas que não afetam su
        <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph">http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
        <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph">http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
       </ul> </p> </td> 
-    <td colname="col3"> <p>Atualize seus pixels da Advertising Cloud para as novas tags somente de imagem da Advertising Cloud, que garantem que você esteja aproveitando toda a funcionalidade da Advertising Cloud. </p> <p>Isso pode ser feito com mais facilidade com a Extensão Advertising Cloud Launch. </p> </td> 
+    <td colname="col3"> <p>Atualize seus pixels da Advertising Cloud para as novas tags somente de imagem da Advertising Cloud, que garantem que você esteja aproveitando toda a funcionalidade da Advertising Cloud. </p> <p>Isso pode ser feito com mais facilidade com a extensão Advertising Cloud para lançamento da plataforma. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - Sincronização DSP de pixels de segmento ativada</b> </p> <p>Peso: 0 </p> </td> 
     <td colname="col2"> <p>Verifique se o pixel do segmento TubeMogul contém uma configuração de sincronização DSP e recomende que a configuração seja adicionada ao pixel. </p> <p>A configuração de Sincronização do DSP é determinada pelo uso de um parâmetro da string de consulta, portanto </p> <p>SE a tag estiver sendo acionada<span class="codeph"> ("https://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt;")</span> </p> <p> OU <span class="codeph"> "http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;"</span> </p> <p> OU <span class="codeph"> "http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?"</span> </p> <p>E a tag contém o parâmetro de URL <span class="codeph"> "sid=")</span> </p> <p>EM SEGUIDA, verifique se o parâmetro de URL <span class="codeph"> "cs=0"</span> ou<span class="codeph"> "cs=1"</span> existe e, se não for recomendado, adicione <span class="codeph"> "cs=1"</span> a esses pixels para que as taxas de correspondência do público-alvo possam melhorar. </p> </td> 
-    <td colname="col3"> <p> Adicione o parâmetro de URL <span class="codeph"> "cs=1"</span> aos pixels da Advertising Cloud para que a sincronização DSP possa ocorrer, o que aumenta as taxas de correspondência do público-alvo. </p> <p>Isso pode ser feito com mais facilidade com a Extensão Advertising Cloud Launch. </p> </td> 
+    <td colname="col3"> <p> Adicione o parâmetro de URL <span class="codeph"> "cs=1"</span> aos pixels da Advertising Cloud para que a sincronização DSP possa ocorrer, o que aumenta as taxas de correspondência do público-alvo. </p> <p>Isso pode ser feito com mais facilidade com a extensão Advertising Cloud para lançamento da plataforma. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>DTM - posição de retorno de chamada pageBottom</b> </p> <p>Peso: 0 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/dtm/using/client-side/t-add-header-fooder-code.html" format="html" scope="external"> Informações adicionais</a> </p> 
@@ -81,9 +81,9 @@ Os alertas mostram problemas que você deve estar ciente, mas que não afetam su
 
 ## Configuração {#configuration}
 
-Esta referência fornece mais informações sobre os testes que o Auditor realiza para configuração.
+Esta referência fornece mais informações sobre os testes que o Platform Auditor realiza para configuração.
 
-O auditor avalia as tags em relação a outras regras e práticas recomendadas.
+O Platform Auditor avalia as tags em relação a outras regras e práticas recomendadas.
 
 <table id="table_A8A1FC360482447185C8460A18426638"> 
   <thead> 
@@ -161,9 +161,9 @@ O auditor avalia as tags em relação a outras regras e práticas recomendadas.
 
 ## Consistência de tags {#tag-consistency}
 
-Esta referência fornece mais informações sobre os testes executados pelo auditor para garantir a consistência das tags.
+Esta referência fornece mais informações sobre os testes executados pelo Auditor da Plataforma para garantir a consistência das tags.
 
-O Auditor avalia se as tags são consistentes em todos os URLs.
+O Platform Auditor avalia se as tags são consistentes em todos os URLs.
 
 <table id="table_4F9ED873BAF741D19BFB0F297B3A1FDB"> 
   <thead> 
@@ -186,9 +186,9 @@ O Auditor avalia se as tags são consistentes em todos os URLs.
 
 ## Presença de tag {#tag-presence}
 
-Esta referência fornece mais informações sobre os testes que o Auditor realiza para a presença de tags.
+Esta referência fornece mais informações sobre os testes que o Platform Auditor realiza para a presença de tags.
 
-O Auditor avalia se a tag existe, se está no lugar certo no código da sua página e assim por diante.
+O Auditor da plataforma avalia se a tag existe, se está no lugar certo no código da sua página e assim por diante.
 
 <table id="table_98A2E3F7B3154EEFA76D0CAE2FE97CAB"> 
   <thead> 
@@ -202,12 +202,12 @@ O Auditor avalia se a tag existe, se está no lugar certo no código da sua pág
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - Presença de código</b> </p> <p>Peso: 5 </p> </td> 
     <td colname="col2"> <p> A tag da Advertising Cloud não está disponível no DOM. </p> </td> 
-    <td colname="col3"> <p>Implemente a tag da Advertising Cloud usando a Extensão Advertising Cloud Launch. </p> </td> 
+    <td colname="col3"> <p>Implemente a tag do Advertising Cloud usando a extensão Advertising Cloud para lançamento da plataforma. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Advertising Cloud - Pixel de segmento implementado</b> </p> <p>Peso: 5 </p> </td> 
     <td colname="col2"> <p> Atualize seus pixels de segmento da Advertising Cloud para as novas tags somente de imagem da Advertising Cloud. O uso de tags de segmento AMO obsoletas pode resultar em perda de dados. </p> </td> 
-    <td colname="col3"> <p>Implemente o pixel do segmento da Advertising Cloud usando a Extensão Advertising Cloud Launch. </p> </td> 
+    <td colname="col3"> <p>Implemente o pixel do segmento Advertising Cloud usando a extensão Advertising Cloud para lançamento da plataforma. </p> </td> 
    </tr> 
    <tr> 
     <td colname="col1"> <p><b>Analytics - Carregado no DOM</b> </p> <p>Peso: 5 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/analytics/implementation/home.html" format="https" scope="external"> Informações adicionais</a> </p> </td> 
