@@ -4,11 +4,11 @@ seo-description: Depois de executar um teste, o scorecard mostra informações s
 seo-title: Scorecard
 title: Scorecard
 uuid: a765cd6a-d3d6-4438-9621-d7899385a518
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '432'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 91%
 
 Depois de executar um teste, o scorecard mostra informações sobre uma auditoria.
 
-Clique no nome de sua auditoria na página do Adobe Experience Platform Auditor para visualização dos resultados de seu teste.
+Clique no nome da sua auditoria na página do Adobe Experience Platform Auditor para ver os resultados do teste.
 
 ![](assets/report.png)
 
@@ -50,7 +50,7 @@ O scorecard lista quaisquer problemas de nível 4 ou 5 como **altamente recomend
 
 O scorecard lista todos os problemas de nível 1 a 3 conforme **recomendado** para você corrigir.
 
-Clique em **[!UICONTROL Baixar o relatório]** para baixar um arquivo ou PDF contendo as informações relatadas pela auditoria.[!DNL Excel]
+Clique em **[!UICONTROL Baixar o relatório]** para baixar um arquivo [!DNL Excel] ou PDF contendo as informações relatadas pela auditoria.
 
 Além da pontuação para cada categoria, o scorecard lista quaisquer correções recomendadas ou altamente recomendadas, bem como os itens que passaram no teste. Clique em cada edição para ver mais detalhes na caixa à direita. Clique novamente para detalhar e ver recomendações de como corrigir o problema. A seguir estão os detalhes de uma edição Recomendada na tabela de indicadores mostrada acima:
 
@@ -62,4 +62,4 @@ Clique nas categorias na parte superior da tela para ver os problemas encontrado
 
 Você pode exibir listas dos URLS que passaram ou que falharam no teste.
 
-From the scorecard, click a test name or the **[!UICONTROL See All]** link under each category heading. Isto leva-vos aos detalhes dos testes. Para cada teste, você pode ver a descrição do teste e uma lista de todos os urls que falharam e foram aprovados. Essas informações também estão incluídas nos relatórios baixados.
+No scorecard, clique em um nome de teste ou no link **[!UICONTROL Ver todos]** sob cada cabeçalho de categoria. Isto leva-vos aos detalhes dos testes. Para cada teste, você pode ver a descrição do teste e uma lista de todos os urls que falharam e foram aprovados. Essas informações também estão incluídas nos relatórios baixados.
