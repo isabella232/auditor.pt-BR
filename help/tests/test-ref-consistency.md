@@ -1,23 +1,23 @@
 ---
-description: Esta referência fornece mais informações sobre os testes executados pelo Adobe Experience Platform Auditor para garantir a consistência das tags.
-seo-description: Esta referência fornece mais informações sobre os testes executados pelo Adobe Experience Platform Auditor para garantir a consistência das tags.
+description: Esta referência fornece mais informações sobre os testes que o Adobe Experience Platform Auditor realiza para garantir a consistência de tags.
+seo-description: Esta referência fornece mais informações sobre os testes que o Adobe Experience Platform Auditor realiza para garantir a consistência de tags.
 seo-title: Consistência de tags
 title: Consistência de tags
 uuid: 16271dd6-3587-4f33-92f8-54ec4a3d6469
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '123'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
 
 # Consistência de tags
 
-Esta referência fornece mais informações sobre os testes executados pelo Adobe Experience Platform Auditor para garantir a consistência das tags.
+Esta referência fornece mais informações sobre os testes que o Adobe Experience Platform Auditor realiza para garantir a consistência de tags.
 
-Os testes de consistência do Platform Auditor buscam inconsistências em todas as páginas digitalizadas. Esses são valores ou configurações que devem ser os mesmos em todas as páginas do site para garantir uma coleta de dados precisa.
+Os testes de consistência do Platform Auditor procuram inconsistências em todas as páginas digitalizadas. Esses são valores ou configurações que devem ser os mesmos em todas as páginas do site para garantir uma coleta de dados precisa.
 
 <table id="table_4F9ED873BAF741D19BFB0F297B3A1FDB"> 
  <thead> 
