@@ -4,11 +4,11 @@ seo-description: Criar uma nova auditoria no Adobe Experience Platform Auditor
 seo-title: Criar uma nova auditoria no Adobe Experience Platform Auditor
 title: Criar uma nova auditoria no Adobe Experience Platform Auditor
 uuid: bd6798bb-3fab-4091-9e07-d3d1e5fdd087
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '517'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -44,22 +44,22 @@ Se desejar, use o link na parte inferior da página para acessar uma conta de av
 
    Cada e-mail tem no máximo 250 caracteres, incluindo o fim do domínio (por exemplo, .com).
 
-1. Specify [!UICONTROL Include Filters].
+1. Especifique [!UICONTROL Incluir filtros].
 
-   Esse campo pode conter URLs exatos, URLs parciais ou expressões regulares. Use este campo para os critérios que deseja que cada URL corresponda. Any crawled URLs that do not match the [!UICONTROL Include Filter] criteria are not included in the audit results.
+   Esse campo pode conter URLs exatos, URLs parciais ou expressões regulares. Use este campo para os critérios que deseja que cada URL corresponda. Todos os URLs rastreados que não correspondem aos critérios de [!UICONTROL Incluir filtro] não são incluídos nos resultados da auditoria.
 
    Você pode inserir diretórios que deseja que a auditoria verifique. Ou você pode executar auditoria entre domínios ou de automatização, onde é necessário iniciar a auditoria em um domínio e terminar em outro. Para fazer isso, digite os domínios que deseja navegar; para padrões complexos de URL, use uma expressão regular.
 
    >[!NOTE]
    >
-   >Se você incluir uma página em seus filtros, mas ela não estiver conectada ao seu URL inicial, ou o Auditor da Plataforma verificar 500 páginas antes de chegar a essa página, a página não será digitalizada e não será incluída nos resultados do teste.
+   >Se você incluir uma página em seus filtros, mas ela não estiver conectada ao URL inicial, ou o Platform Auditor verificar 500 páginas antes de chegar a essa página, a página não será digitalizada e não será incluída nos resultados do teste.
 
    Os filtros de inclusão são limitados a 1.000 caracteres por linha.
 
    Consulte [Incluir lista](../create-audit/filters.md) para obter mais informações.
 1. Especifique Excluir filtros.
 
-   The [!UICONTROL Exclude List] prevents URLs from being audited. Use exact URLs, partial URLs, or regular expressions, just as you would in the [!UICONTROL Include List].
+   A [!UICONTROL Lista de exclusões] impede que os URLs sejam auditados. Use URLs exatos, URLs parciais ou expressões regulares, como faria na [!UICONTROL Lista de inclusão].
 
    Uma prática comum é excluir um link de logout se a auditoria tiver uma sessão de usuário (por exemplo: `/logout`, ou seja, qualquer URL que contenha a string `/logout`).
 
