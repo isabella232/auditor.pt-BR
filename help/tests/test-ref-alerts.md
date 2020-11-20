@@ -4,11 +4,11 @@ seo-description: Esta referência fornece mais informações sobre os alertas qu
 seo-title: Alertas
 title: Alertas
 uuid: 8f05b3c1-2427-4691-a88f-1de98f120a02
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '936'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Os alertas mostram problemas que você deve estar ciente, mas que não afetam su
       1.0.1 
     --> <p><b>Advertising Cloud - Tag JS correta usada</b> </p> <p>Peso: 0 </p> </td> 
    <td colname="col2"> <p>A Advertising Cloud deve usar as tags mais recentes do JavaScript. </p> </td> 
-   <td colname="col3"> <p>Atualize seu JavaScript da Advertising Cloud para a versão mais recente. Usar as versões obsoletas do JavaScript pode resultar em perda de funcionalidade. </p> <p>Isso pode ser feito com mais facilidade usando a extensão Advertising Cloud para lançamento da plataforma. </p> </td> 
+   <td colname="col3"> <p>Atualize seu JavaScript da Advertising Cloud para a versão mais recente. Usar as versões obsoletas do JavaScript pode resultar em perda de funcionalidade. </p> <p>Isso pode ser feito mais facilmente usando a extensão Advertising Cloud para o Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -55,7 +55,7 @@ Os alertas mostram problemas que você deve estar ciente, mas que não afetam su
       <li id="li_1EEFA03516BF445294B5EC5DED891758"> <p><span class="codeph">http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;</span> </p> </li> 
       <li id="li_F72206B142214217BDD34356D2F3D8AD"> <p><span class="codeph">http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?</span> </p> </li> 
      </ul> </p> </td> 
-   <td colname="col3"> <p>Atualize seus pixels da Advertising Cloud para as novas tags somente de imagem da Advertising Cloud, que garantem que você esteja aproveitando toda a funcionalidade da Advertising Cloud. </p> <p>Isso pode ser feito com mais facilidade com a extensão Advertising Cloud para lançamento da plataforma. </p> </td> 
+   <td colname="col3"> <p>Atualize seus pixels da Advertising Cloud para as novas tags somente de imagem da Advertising Cloud, que garantem que você esteja aproveitando toda a funcionalidade da Advertising Cloud. </p> <p>Isso pode ser feito com mais facilidade com a extensão Advertising Cloud para o Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -63,7 +63,7 @@ Os alertas mostram problemas que você deve estar ciente, mas que não afetam su
       1.0.1 
     --> <p><b>Advertising Cloud - Sincronização DSP de pixels de segmento ativada</b> </p> <p>Peso: 0 </p> </td> 
    <td colname="col2"> <p>Verifique se o pixel do segmento TubeMogul contém uma configuração de sincronização DSP e recomende que a configuração seja adicionada ao pixel. </p> <p>A configuração de Sincronização do DSP é determinada pelo uso de um parâmetro da string de consulta, portanto </p> <p>SE a tag estiver sendo acionada<span class="codeph"> ("https://rtd.tubemogul.com/upi/?sid=&lt;HASH_VALUE&gt;")</span> </p> <p> OU <span class="codeph"> "http(s)://rtd-tm.everesttech.net/upi/?sid=&lt;HASH_VALUE&gt;"</span> </p> <p> OU <span class="codeph"> "http(s)://pixel.everesttech.net/px2/&lt;NUMERIC_ID&gt;?"</span> </p> <p>E a tag contém o parâmetro de URL <span class="codeph"> "sid=")</span> </p> <p>EM SEGUIDA, verifique se o parâmetro de URL <span class="codeph"> "cs=0"</span> ou<span class="codeph"> "cs=1"</span> existe e, se não for recomendado, adicione <span class="codeph"> "cs=1"</span> a esses pixels para que as taxas de correspondência do público-alvo possam melhorar. </p> </td> 
-   <td colname="col3"> <p> Adicione o parâmetro de URL <span class="codeph"> "cs=1"</span> aos pixels da Advertising Cloud para que a sincronização DSP possa ocorrer, o que aumenta as taxas de correspondência do público-alvo. </p> <p>Isso pode ser feito com mais facilidade com a extensão Advertising Cloud para lançamento da plataforma. </p> </td> 
+   <td colname="col3"> <p> Adicione o parâmetro de URL <span class="codeph"> "cs=1"</span> aos pixels da Advertising Cloud para que a sincronização DSP possa ocorrer, o que aumenta as taxas de correspondência do público-alvo. </p> <p>Isso pode ser feito com mais facilidade com a extensão Advertising Cloud para o Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
@@ -100,24 +100,24 @@ Os alertas mostram problemas que você deve estar ciente, mas que não afetam su
     <!--
       TE48c499b022f545c5bccc6f8bde169685 
     --> </td> 
-   <td colname="col2"> <p>Platform Launch should have a <span class="codeph"> pageBottom </span>callback function defined last in the body of the page if synchronously deployed. </p> <p> <p>Observação: É prática recomendada que a tag seja a <i>última</i> tag no <span class="codeph"> &lt;body&gt;</span>. Se for encontrada dentro da tag <span class="codeph"> &lt;body&gt;</span>, ela tem uma chance de funcionar, mas como não é a prática recomendada, ela pode funcionar incorretamente ou com resultados inesperados ou indesejados. </p> </p> </td> 
-   <td colname="col3"> <p>Platform Launch requires the <span class="codeph"> _satellite.pageBottom()</span> function for synchronous deployments. Add the inline script immediately prior to the closing <span class="codeph"> &lt;/body&gt;</span> tag to ensure proper Platform Launch functionality. </p> </td> 
+   <td colname="col2"> <p>O Platform Launch deve ter uma função de retorno de chamada <span class="codeph">pageBottom</span> definida por último no corpo da página se implantada de forma síncrona. </p> <p> <p>Observação: É prática recomendada que a tag seja a <i>última</i> tag no <span class="codeph"> &lt;body&gt;</span>. Se for encontrada dentro da tag <span class="codeph"> &lt;body&gt;</span>, ela tem uma chance de funcionar, mas como não é a prática recomendada, ela pode funcionar incorretamente ou com resultados inesperados ou indesejados. </p> </p> </td> 
+   <td colname="col3"> <p>O Platform Launch exige a função <span class="codeph"> _satellite.pageBottom()</span> para implantações síncronas. Adicione o script em linha imediatamente antes da tag de fechamento <span class="codeph"> &lt;/body&gt;</span> para garantir a funcionalidade correta do Platform Launch. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
-    --> <p><b>Launch - Auto-Hospedado</b> </p> <p>Peso: 0 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Introdução ao Adobe Experience Platform Launch</a> </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/launch/using/reference/client-side-info/asynchronous-deployment.html" format="https" scope="external"> Implantação assíncrona do Launch da plataforma</a> </p> </td> 
-   <td colname="col2"> <p>The Platform Launch library is being hosted on Adobe's Akamai instance at <span class="filepath"> assets.adobedtm.com</span>. </p> <p>A hospedagem própria é a abordagem recomendada para carregar o Platform Launch, pois proporciona maior controle do desempenho do site por meio do controle de cache, reduzindo as dependências de scripts de terceiros e maior controle do processo de publicação. As bibliotecas do Platform Launch podem ser hospedadas e gerenciadas por meio de sua própria hospedagem na Web ou CDN. </p> </td> 
-   <td colname="col3"> <p>Embora a hospedagem de lançamento de plataforma por meio do Akamai CDN funcione na maioria dos casos, recomenda-se que a hospedagem automática seja implementada como a primeira etapa para melhorar o desempenho da página. </p> </td> 
+    --> <p><b>Launch - Auto-Hospedado</b> </p> <p>Peso: 0 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Introdução ao Adobe Experience Platform Launch</a> </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/launch/using/reference/client-side-info/asynchronous-deployment.html" format="https" scope="external"> Implantação assíncrona do Platform Launch</a> </p> </td> 
+   <td colname="col2"> <p>A biblioteca do Platform Launch está sendo hospedada na instância Akamai da Adobe em <span class="filepath"> assets.adobedtm.com</span>. </p> <p>A hospedagem própria é a abordagem recomendada para o carregamento do Platform Launch, pois oferece maior controle do desempenho do site por meio do controle de cache, reduzindo as dependências de scripts de terceiros e maior controle do processo de publicação. As bibliotecas do Platform Launch podem ser hospedadas e gerenciadas por meio de sua própria hospedagem na Web ou CDN. </p> </td> 
+   <td colname="col3"> <p>Embora a hospedagem do Platform Launch via Akamai CDN funcione na maioria dos casos, recomenda-se que a hospedagem automática seja implementada como a primeira etapa para melhorar o desempenho da página. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
     <!--
       1.0.1 
     --> <p><b>Launch - deve ser implantado de forma assíncrona</b> </p> <p>Peso: 0 </p> <p><a href="https://docs.adobe.com/content/help/pt-BR/launch/using/intro/get-started/quick-start.html" format="https" scope="external"> Informações adicionais</a> </p> </td> 
-   <td colname="col2"> <p>O lançamento da plataforma deve ser implantado de forma assíncrona para obter o desempenho ideal. </p> </td> 
-   <td colname="col3"> <p>Inclua o parâmetro async no script em linha para garantir a funcionalidade assíncrona adequada do Launch de plataforma </p> </td> 
+   <td colname="col2"> <p>O Platform Launch deve ser implantado de forma assíncrona para obter o desempenho ideal. </p> </td> 
+   <td colname="col3"> <p>Inclua o parâmetro async no script em linha para garantir a funcionalidade assíncrona correta do Platform Launch </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 
