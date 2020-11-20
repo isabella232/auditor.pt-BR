@@ -4,11 +4,11 @@ seo-description: Introdução ao Adobe Experience Platform Auditor
 seo-title: Introdução
 title: Introdução
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '243'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 64%
 This page is a placeholder for now, we need things like prerequisites, any planning that should be done before using Auditor, initial setup info--that kind of thing.
 -->
 
-The first time you use [!DNL Adobe Experience Platform Auditor], you must complete and accept the [!DNL Platform Auditor] agreement. [!DNL Platform Auditor] foi desenvolvido como um esforço cooperativo entre [!DNL Adobe] e [!DNL ObservePoint]. Os usuários do Platform Auditor podem usar a funcionalidade de ObservePoint limitada sem custo adicional. Para usar o Platform Auditor, você deve aceitar as comunicações do WatchPoint.
+Na primeira vez que utilizar o [!DNL Adobe Experience Platform Auditor], você deverá concluir e aceitar o acordo do [!DNL Platform Auditor]. O [!DNL Platform Auditor] foi desenvolvido como um esforço cooperativo entre a [!DNL Adobe] e o [!DNL ObservePoint]. Os usuários do Platform Auditor podem usar a funcionalidade limitada do ObservePoint sem custo adicional. Para usar o Platform Auditor, você deve aceitar as comunicações do ObservePoint.
 
 ## Execução da primeira verificação {#task-b211597afed343cfa238443fcf7c6041}
 
@@ -29,9 +29,9 @@ The first time you use [!DNL Adobe Experience Platform Auditor], you must comple
 
    ![](assets/activate.png)
 
-1. Select **[!UICONTROL Auditor]** and accept the Terms of Use.
+1. Selecione **[!UICONTROL Auditor]** e aceite os Termos de uso.
 
-   A página do Platform Auditor fornece uma painel de verificações anteriores, juntamente com a opção de executar uma nova verificação.
+   A página Platform Auditor fornece um painel de verificações anteriores, juntamente com a opção de executar uma nova verificação.
 
    ![](assets/home.png)
 
