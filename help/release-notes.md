@@ -4,9 +4,9 @@ seo-description: Notas de versão do Adobe Experience Platform Auditor
 seo-title: Notas de versão do Adobe Experience Platform Auditor
 title: Notas de versão do Adobe Experience Platform Auditor
 uuid: 2e1eb2de-f162-45af-a9b0-15dbdac5531d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 100%
 
