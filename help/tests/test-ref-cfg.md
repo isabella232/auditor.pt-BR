@@ -4,9 +4,9 @@ seo-description: Esta referência fornece mais informações sobre os testes que
 seo-title: Configuração
 title: Configuração
 uuid: d40d815c-edfe-48b9-921f-cea1b0b54a0a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 100%
 
