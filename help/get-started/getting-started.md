@@ -4,9 +4,9 @@ seo-description: Introdução ao Adobe Experience Platform Auditor
 seo-title: Introdução
 title: Introdução
 uuid: 999e0142-5a64-4202-ae09-58d22438ded7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 100%
 
