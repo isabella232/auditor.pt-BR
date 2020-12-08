@@ -1,16 +1,12 @@
 ---
-source-git-commit: 11340be8ca4288cbe4c6129f44a05677cfd3112e
-workflow-type: ht
-translation-type: ht
-source-wordcount: '509'
+source-git-commit: 58d87e06bc7126ba799d6063278ebc45f562928f
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '427'
 ht-degree: 100%
 
 ---
 # Contribuir com o artigo
-
-| EXL-PR | EXL | Visualização | Ativar | Publicado | Ajuda |
-|--- |--- |--- |--- |--- |--- |
-| [![Status da build](https://docs.ci.corp.adobe.com/view/exl-pr/job/auditor.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/auditor.en_pr-exl/lastBuild/) | [![Status da build](https://docs.ci.corp.adobe.com/view/exl-pr/job/auditor.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/auditor.en_exl/lastBuild/lastBuild) | [URL de pré-visualização](https://experienceleague.corp.adobe.com/docs/auditor/using/overview.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [URL ativo](https://experienceleague.adobe.com/docs/auditor/using/overview.html?lang=en) | [Guia de criação](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 Aceitamos contribuições de nossa comunidade e de funcionários da Adobe que estão fora das equipes de documentação.
 
@@ -24,7 +20,7 @@ Consulte o [Guia do colaborador dos documentos da Adobe](https://docs.adobe.com/
 
 A maneira como você contribui depende de quem você é e do tipo de alterações com as quais deseja contribuir:
 
-### Pequenas alterações
+### Pequenas alterações 
 
 Se você estiver contribuindo com pequenas atualizações de boa vontade, visite o artigo e clique no link **Editar** do artigo, que vai para a origem GitHub do artigo. Em seguida, use a interface do usuário do GitHub para fazer as atualizações. Consulte o [Guia do colaborador dos documentos da Adobe](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) para obter mais informações.
 
