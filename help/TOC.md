@@ -1,6 +1,6 @@
 ---
 cloud: experience-cloud
-product: adobe experience platform auditor
+product: auditor
 sub-product: adobe experience platform auditor
 audience: end-user
 user-guide-title: Ajuda do Experience Platform Auditor
@@ -8,7 +8,7 @@ user-guide-description: Gere um relatório que classifica sua implementação da
 breadcrumb-title: Guia do Platform Auditor
 breadcrumb-url: /docs/auditor/using/overview.html
 translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
+source-git-commit: c5f155d859486320aeec497946e35b7c06a3de7d
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 100%
