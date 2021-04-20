@@ -4,14 +4,14 @@ seo-description: informações sobre os testes do Adobe Experience Platform Audi
 seo-title: Testar rubrica 1.0.1
 title: Testar rubrica 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+exl-id: 115c762c-fce9-465f-a040-1ef81d4ad3f6
+translation-type: ht
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
+workflow-type: ht
 source-wordcount: '2727'
 ht-degree: 100%
 
 ---
-
 
 # Testar rubrica 1.0.1 {#test-rubric}
 
@@ -77,7 +77,7 @@ Os alertas mostram problemas que você deve estar ciente, mas que não afetam su
     <!--
       TEa9df69942f404055a64262889c8b21d3 
     --> </td> 
-   <td colname="col2"> <p>O Dynamic Tag Management exige a função <span class="codeph"> _satellite.pageBottom()</span>. Adicione o script em linha imediatamente antes da tag body de fechamento para garantir a funcionalidade adequada do DTM. </p> <p> <p>Observação: É prática recomendada que a tag seja a <i>última</i> tag no <span class="codeph"> &lt;body&gt;</span>. Se for encontrada dentro da tag <span class="codeph"> &lt;body&gt;</span>, ela tem uma chance de funcionar, mas como não é a prática recomendada, ela pode funcionar incorretamente ou com resultados inesperados ou indesejados. </p> </p> </td> 
+   <td colname="col2"> <p>O Dynamic Tag Management exige a função <span class="codeph">_satellite.pageBottom()</span>. Adicione o script em linha imediatamente antes da tag body de fechamento para garantir a funcionalidade adequada do DTM. </p> <p> <p>Observação: É prática recomendada que a tag seja a <i>última</i> tag no <span class="codeph"> &lt;body&gt;</span>. Se for encontrada dentro da tag <span class="codeph"> &lt;body&gt;</span>, ela tem uma chance de funcionar, mas como não é a prática recomendada, ela pode funcionar incorretamente ou com resultados inesperados ou indesejados. </p> </p> </td> 
    <td colname="col3"> <p>Adicione o script em linha imediatamente antes da tag de fechamento <span class="codeph"> &lt;/body&gt;</span> para garantir a funcionalidade adequada do DTM. </p> </td> 
   </tr> 
   <tr> 
@@ -426,4 +426,3 @@ O Platform Auditor avalia se a tag existe e se está no lugar certo no código d
   </tr> 
  </tbody> 
 </table>
-
