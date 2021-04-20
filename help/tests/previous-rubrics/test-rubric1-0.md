@@ -4,14 +4,14 @@ seo-description: informações sobre os testes do Adobe Experience Platform Audi
 seo-title: Testar rubrica 0.0.8
 title: Testar rubrica 0.0.8
 uuid: c62b7169-a650-4650-876f-c254eb57cb25
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+exl-id: 0313e271-5664-4a34-9e3c-8cb1c61d8b93
+translation-type: ht
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
+workflow-type: ht
 source-wordcount: '2008'
 ht-degree: 100%
 
 ---
-
 
 # Testar rubrica 0.0.8 {#test-rubric}
 
@@ -61,7 +61,7 @@ Os alertas mostram problemas que você deve estar ciente, mas que não afetam su
      <!--
        TEa9df69942f404055a64262889c8b21d3 
      --> </td> 
-    <td colname="col2"> <p> O Dynamic Tag Management exige a função<span class="codeph"> _satellite.pageBottom()</span>. </p> <p>É prática recomendada que a tag seja a <i>última</i> tag no <span class="codeph"> &lt;body&gt;</span>. Se for encontrada dentro da tag <span class="codeph"> &lt;body&gt;</span>, ela tem uma chance de funcionar, mas como não é a prática recomendada, ela pode funcionar incorretamente ou com resultados inesperados ou indesejados. </p> </td> 
+    <td colname="col2"> <p> O Dynamic Tag Management exige a função <span class="codeph">_satellite.pageBottom()</span>. </p> <p>É prática recomendada que a tag seja a <i>última</i> tag no <span class="codeph"> &lt;body&gt;</span>. Se for encontrada dentro da tag <span class="codeph"> &lt;body&gt;</span>, ela tem uma chance de funcionar, mas como não é a prática recomendada, ela pode funcionar incorretamente ou com resultados inesperados ou indesejados. </p> </td> 
     <td colname="col3"> <p>Adicione o script em linha imediatamente antes da tag de fechamento <span class="codeph"> &lt;/body&gt;</span> para garantir a funcionalidade adequada do DTM. </p> </td> 
    </tr> 
    <tr> 
