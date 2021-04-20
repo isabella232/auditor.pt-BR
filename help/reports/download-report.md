@@ -4,14 +4,14 @@ seo-description: O relatório mostra se cada URL foi bem-sucedida ou falhou.
 seo-title: Baixar relatório
 title: Baixar relatório
 uuid: cd5c4db8-e647-4311-9abb-98dd3bbc7ef8
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+exl-id: 2b072b7a-0de3-47f2-be38-9d82bd7da807
+translation-type: ht
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
+workflow-type: ht
 source-wordcount: '131'
 ht-degree: 100%
 
 ---
-
 
 # Baixar relatório {#download-report}
 
