@@ -4,14 +4,14 @@ seo-description: Esta referência fornece mais informações sobre os testes que
 seo-title: Presença de tag
 title: Presença de tag
 uuid: 91aa355b-7022-431c-9837-e108b5ce604d
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+exl-id: a6ac4d95-2f96-4abb-b39b-4dd0d8df5fe8
+translation-type: ht
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
+workflow-type: ht
 source-wordcount: '958'
 ht-degree: 100%
 
 ---
-
 
 # Presença de tag
 
