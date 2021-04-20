@@ -4,14 +4,14 @@ seo-description: Esta referência fornece mais informações sobre os alertas qu
 seo-title: Alertas
 title: Alertas
 uuid: 8f05b3c1-2427-4691-a88f-1de98f120a02
-translation-type: tm+mt
-source-git-commit: 00d184c1fa1eece9eec8f27896bfbf72fa32bfb6
-workflow-type: tm+mt
+exl-id: 9e7ade9b-6f3c-4f1f-87b1-5dbaed63ae36
+translation-type: ht
+source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
+workflow-type: ht
 source-wordcount: '936'
 ht-degree: 100%
 
 ---
-
 
 # Alertas {#alerts}
 
@@ -73,7 +73,7 @@ Os alertas mostram problemas que você deve estar ciente, mas que não afetam su
     <!--
       TEa9df69942f404055a64262889c8b21d3 
     --> </td> 
-   <td colname="col2"> <p>O Dynamic Tag Management exige a função <span class="codeph"> _satellite.pageBottom()</span>. Adicione o script em linha imediatamente antes da tag de fechamento <span class="codeph"> &lt;/body&gt;</span> para garantir a funcionalidade adequada do DTM. </p> <p> <p>Observação: É prática recomendada que a tag seja a <i>última</i> tag no <span class="codeph"> &lt;body&gt;</span>. Se for encontrada dentro da tag <span class="codeph"> &lt;body&gt;</span>, ela tem uma chance de funcionar, mas como não é a prática recomendada, ela pode funcionar incorretamente ou com resultados inesperados ou indesejados. </p> </p> </td> 
+   <td colname="col2"> <p>O Dynamic Tag Management exige a função <span class="codeph">_satellite.pageBottom()</span>. Adicione o script em linha imediatamente antes da tag de fechamento <span class="codeph"> &lt;/body&gt;</span> para garantir a funcionalidade adequada do DTM. </p> <p> <p>Observação: É prática recomendada que a tag seja a <i>última</i> tag no <span class="codeph"> &lt;body&gt;</span>. Se for encontrada dentro da tag <span class="codeph"> &lt;body&gt;</span>, ela tem uma chance de funcionar, mas como não é a prática recomendada, ela pode funcionar incorretamente ou com resultados inesperados ou indesejados. </p> </p> </td> 
    <td colname="col3"> <p>Adicione o script em linha imediatamente antes da tag de fechamento <span class="codeph"> &lt;/body&gt;</span> para garantir a funcionalidade adequada do DTM. </p> </td> 
   </tr> 
   <tr> 
@@ -129,4 +129,3 @@ Os alertas mostram problemas que você deve estar ciente, mas que não afetam su
   </tr> 
  </tbody> 
 </table>
-
