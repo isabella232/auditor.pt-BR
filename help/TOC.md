@@ -6,11 +6,9 @@ audience: end-user
 user-guide-title: Ajuda do Experience Platform Auditor
 user-guide-description: Gere um relatório que classifica sua implementação da Adobe Experience Cloud, com indicações sobre como melhorá-la.
 breadcrumb-title: Guia do Platform Auditor
-breadcrumb-url: /docs/auditor/using/overview.html
-translation-type: ht
-source-git-commit: 5dbbd05323172302682643de2e8ea867e2e186c6
-workflow-type: ht
-source-wordcount: '78'
+source-git-commit: 482974cda68b97d2ab7bc9420837ec38a65e45c0
+workflow-type: tm+mt
+source-wordcount: '74'
 ht-degree: 100%
 
 ---
@@ -23,7 +21,7 @@ ht-degree: 100%
    + [Introdução](get-started/getting-started.md)
    + [Página Lista de auditoria](get-started/audit-list.md)
 + Criar uma auditoria {#create-audit}
-   + [Criar uma nova auditoria](create-audit/create-new-audit.md)
+   + [Criar uma nova auditoria ](create-audit/create-new-audit.md)
    + [Incluir e excluir filtros](create-audit/filters.md)
 + Relatórios {#reports}
    + [Scorecard](reports/scorecard.md)
