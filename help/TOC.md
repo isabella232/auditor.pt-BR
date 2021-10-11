@@ -7,7 +7,7 @@ user-guide-title: Ajuda do Experience Platform Auditor
 user-guide-description: Gere um relatório que classifica sua implementação da Adobe Experience Cloud, com indicações sobre como melhorá-la.
 breadcrumb-title: Guia do Platform Auditor
 source-git-commit: 482974cda68b97d2ab7bc9420837ec38a65e45c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '74'
 ht-degree: 100%
 
