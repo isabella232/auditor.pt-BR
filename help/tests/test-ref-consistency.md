@@ -1,14 +1,13 @@
 ---
 description: Esta referência fornece mais informações sobre os testes que o Adobe Experience Platform Auditor realiza para garantir a consistência de tags.
-seo-description: Esta referência fornece mais informações sobre os testes que o Adobe Experience Platform Auditor realiza para garantir a consistência de tags.
-seo-title: Consistência de tags
+seo-description: This reference provides more information about the tests Adobe Experience Platform Auditor performs for tag consistency.
+seo-title: Tag consistency
 title: Consistência de tags
 uuid: 16271dd6-3587-4f33-92f8-54ec4a3d6469
 exl-id: 681cf2f8-e022-4fb0-a06a-b4986710f501
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '123'
+workflow-type: tm+mt
+source-wordcount: '105'
 ht-degree: 100%
 
 ---

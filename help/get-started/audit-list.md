@@ -1,19 +1,18 @@
 ---
 description: A página Lista de auditoria mostra informações sobre todas as suas auditorias.
-seo-description: A página Lista de auditoria mostra informações sobre todas as suas auditorias.
-seo-title: Página Lista de auditoria
+seo-description: The Audit List page shows information about all of your audits.
+seo-title: Audit List page
 title: Página Lista de auditoria
 uuid: 5b357dd3-80cb-4a76-8a19-c01f0603dfc0
 exl-id: 2ba22dc7-f296-461e-90d4-1cb330bcde24
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '230'
+workflow-type: tm+mt
+source-wordcount: '216'
 ht-degree: 100%
 
 ---
 
-# Página Lista de auditoria {#audit-list-page}
+# Página Lista de auditoria{#audit-list-page}
 
 A página Lista de auditoria mostra informações sobre todas as suas auditorias.
 

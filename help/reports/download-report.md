@@ -1,19 +1,18 @@
 ---
 description: O relatório mostra se cada URL foi bem-sucedida ou falhou.
-seo-description: O relatório mostra se cada URL foi bem-sucedida ou falhou.
-seo-title: Baixar relatório
+seo-description: The report shows whether each URL passes or fails.
+seo-title: Download report
 title: Baixar relatório
 uuid: cd5c4db8-e647-4311-9abb-98dd3bbc7ef8
 exl-id: 2b072b7a-0de3-47f2-be38-9d82bd7da807
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '131'
+workflow-type: tm+mt
+source-wordcount: '120'
 ht-degree: 100%
 
 ---
 
-# Baixar relatório {#download-report}
+# Baixar relatório{#download-report}
 
 O relatório mostra se cada URL foi bem-sucedida ou falhou.
 

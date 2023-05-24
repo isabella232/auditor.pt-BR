@@ -1,19 +1,18 @@
 ---
 description: Depois de executar um teste, o scorecard mostra informações sobre uma auditoria.
-seo-description: Depois de executar um teste, o scorecard mostra informações sobre uma auditoria.
+seo-description: After you run a test, the scorecard shows information about an audit.
 seo-title: Scorecard
 title: Scorecard
 uuid: a765cd6a-d3d6-4438-9621-d7899385a518
 exl-id: a2ccaf7d-744f-42f0-8193-1c6a93f7a09a
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '432'
+workflow-type: tm+mt
+source-wordcount: '419'
 ht-degree: 100%
 
 ---
 
-# Scorecard {#scorecard}
+# Scorecard{#scorecard}
 
 Depois de executar um teste, o scorecard mostra informações sobre uma auditoria.
 

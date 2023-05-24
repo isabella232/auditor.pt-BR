@@ -1,19 +1,18 @@
 ---
 description: Esta referência fornece mais informações sobre os testes que o Adobe Experience Platform Auditor realiza.
-seo-description: Esta referência fornece mais informações sobre os testes que o Adobe Experience Platform Auditor realiza.
-seo-title: Referência do teste
+seo-description: This reference provides more information about the tests Adobe Experience Platform Auditor performs.
+seo-title: Test reference
 title: Referência do teste
 uuid: f1d0769e-a2bd-4cec-acd1-146793644895
 exl-id: b368bf43-2007-4f98-a965-ed8fc07c0fdf
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '293'
+workflow-type: tm+mt
+source-wordcount: '278'
 ht-degree: 100%
 
 ---
 
-# Referência do teste {#test-reference}
+# Referência do teste{#test-reference}
 
 Esta referência fornece mais informações sobre os testes que o Adobe Experience Platform Auditor realiza.
 

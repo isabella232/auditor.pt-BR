@@ -1,19 +1,18 @@
 ---
 description: informações sobre os testes do Adobe Experience Platform Auditor
-seo-description: informações sobre os testes do Adobe Experience Platform Auditor
-seo-title: Testar rubrica 1.0.1
+seo-description: information about the Adobe Experience Platform Auditor tests
+seo-title: Test rubric 1.0.1
 title: Testar rubrica 1.0.1
 uuid: 2ed2572e-ddb8-4899-b3a9-1329afdd7905
 exl-id: 115c762c-fce9-465f-a040-1ef81d4ad3f6
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '2727'
+workflow-type: tm+mt
+source-wordcount: '2717'
 ht-degree: 100%
 
 ---
 
-# Testar rubrica 1.0.1 {#test-rubric}
+# Testar rubrica 1.0.1{#test-rubric}
 
 ## Testar rubrica 1.0.1 {#topic-25ed23afdfaf4a12b149ff276965b043}
 

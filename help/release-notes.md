@@ -1,19 +1,18 @@
 ---
 description: Notas de versão do Adobe Experience Platform Auditor
-seo-description: Notas de versão do Adobe Experience Platform Auditor
-seo-title: Notas de versão do Adobe Experience Platform Auditor
+seo-description: Adobe Experience Platform Auditor Release Notes
+seo-title: Adobe Experience Platform Auditor release notes
 title: Notas de versão do Adobe Experience Platform Auditor
 uuid: 2e1eb2de-f162-45af-a9b0-15dbdac5531d
 exl-id: 7c8c55ed-6211-446b-9182-2e9b49dd117d
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '458'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '446'
+ht-degree: 99%
 
 ---
 
-# Notas de versão do Adobe Experience Platform Auditor {#auditor-release-notes}
+# Notas de versão do Adobe Experience Platform Auditor{#auditor-release-notes}
 
 ## 5 de fevereiro de 2019 {#section-f73142fd7c85492a806c7fc19a33a525}
 

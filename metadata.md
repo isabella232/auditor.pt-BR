@@ -4,8 +4,8 @@ solution: Data Collection
 git-repo: https://github.com/AdobeDocs/auditor.pt-BR
 hide: true
 source-git-commit: 059969f5b38ac98188ace82bb0242fce04f4466c
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '111'
 ht-degree: 100%
 
 ---

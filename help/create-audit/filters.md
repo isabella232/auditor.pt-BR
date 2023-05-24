@@ -1,19 +1,18 @@
 ---
 description: Incluir filtros que restringem os links que uma auditoria pode rastrear a partir do URL inicial. Excluir filtros impedem que uma auditoria arraste links.
-seo-description: Incluir filtros que restringem os links que uma auditoria pode rastrear a partir do URL inicial. Excluir filtros impedem que uma auditoria arraste links.
-seo-title: Incluir e excluir filtros
+seo-description: Include filters restrict what links an audit can crawl from the Starting URL. Exclude filters prevent an audit from crawling links.
+seo-title: Include and Exclude filters
 title: Incluir e excluir filtros
 uuid: 477fc38c-7351-42dd-8209-2fb7549ee34c
 exl-id: d6bb1191-62ce-4292-913d-8c42b9136626
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '808'
+workflow-type: tm+mt
+source-wordcount: '783'
 ht-degree: 100%
 
 ---
 
-# Incluir e excluir filtros {#include-and-exclude-filters}
+# Incluir e excluir filtros{#include-and-exclude-filters}
 
 Incluir filtros que restringem os links que uma auditoria pode rastrear a partir do URL inicial. Excluir filtros impedem que uma auditoria arraste links.
 

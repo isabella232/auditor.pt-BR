@@ -1,19 +1,18 @@
 ---
 description: Perguntas e respostas comuns sobre o Adobe Experience Platform Auditor
-seo-description: Perguntas e respostas comuns sobre o Adobe Experience Platform Auditor
-seo-title: Perguntas frequentes sobre o Adobe Experience Platform Auditor
+seo-description: Common questions and answers about Adobe Experience Platform Auditor
+seo-title: Adobe Experience Platform Auditor FAQ
 title: Perguntas frequentes sobre o Adobe Experience Platform Auditor
 uuid: 4db0781a-b288-4ec2-97ff-410a8241a61d
 exl-id: 75ab4497-5822-4f64-9b6d-6cbf13687e8d
-translation-type: ht
 source-git-commit: 286a857b2ff08345499edca2e0eb6b35ecf02332
-workflow-type: ht
-source-wordcount: '990'
+workflow-type: tm+mt
+source-wordcount: '976'
 ht-degree: 100%
 
 ---
 
-# Perguntas frequentes sobre o Adobe Experience Platform Auditor {#auditor-faq}
+# Perguntas frequentes sobre o Adobe Experience Platform Auditor{#auditor-faq}
 
 Este artigo contém as respostas às perguntas frequentes sobre o Adobe Experience Platform Auditor.
 
